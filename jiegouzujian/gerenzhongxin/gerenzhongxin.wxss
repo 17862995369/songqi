@@ -1,0 +1,10 @@
+.pingfan{margin-top:2%;color:#FFF;font-size:38rpx;}
+.lwaii{position:relative;}
+.awjifan{position:absolute;top:8%;left:0;width:100%;}
+.dizhiguanli{width:130rpx;}
+.lwair{width:50rpx;}
+.daxue{border-bottom:1px solid #efefef;padding:2%;}
+.daxue>view{margin-left:2%;}
+.share-btn::after {
+  border: none;
+}

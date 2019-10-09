@@ -1,0 +1,4 @@
+<import src="../../wxParse/wxParse.wxml"/> 
+<view class="toubu">{{title}}</view>
+<view style="padding-left:6%;padding-bottom:3%;">{{shijian}}</view>
+<view style="margin:0 50rpx;"><template is="wxParse" data="{{wxParseData:article.nodes}}"/></view>

@@ -1,0 +1,24 @@
+<!-- <template name="form"> -->
+<form bindsubmit="formSubmit">
+  <view class="ty_hengpai lioiuawy">
+    <label>真实姓名：</label>
+    <input type="text" name="nice_name"/>
+  </view>
+  <view class="ty_hengpai lioiuawy">
+    <label>手机号码：</label>
+    <input type="number" name="mobile" bindinput="shoujihao"/>
+  </view>
+  <view class="ty_liangduanduiqi lioiuawy" >
+    <label>验<text style="margin:0 8%;">证</text>码：</label>
+    <input type="number" name="yanzheng" style="padding-left:3%;"/>
+    <button class="huoqvyanzheng"  disabled='{{disabled}}'  bindtap="huoqvyanzhengma" >{{name}}</button>
+  </view>
+  <view class="ty_hengpai lioiuawy">
+    <label>地<text style="margin-left:28%;">区：</text></label>
+    <input type="number" disabled='disabled' value="{{chengshi}}" name="diqv" bindtap="selectDistrict"/>
+  </view>
+   <view class="ty_hengpai dagax">
+    <button   form-type="submit"  class="zhucesak ty_anniu">注册</button>
+    </view>
+</form>
+<!-- </template> -->

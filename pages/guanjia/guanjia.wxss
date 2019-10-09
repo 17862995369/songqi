@@ -1,0 +1,14 @@
+/* pages/guanjia/guanjia.wxss */
+page{background:#EDEDF7;}
+.illness{width:88rpx;}
+.guarantee{text-align: center;background:#FFF;padding-top:3%;font-size:23rpx;}
+.fool{padding:3%;border-bottom:1px solid #E4E4E4;background:#FFF;}
+.fool>view{width:33%;}
+.call{border-left:1px solid #B7B7B7;border-right:1px solid #B7B7B7;}
+.guarantee>view{width:50%;text-align:center;padding:3% 0;}
+.simple{border-bottom:2px solid #0B69FA;}
+.complaint{border-bottom:2px solid #DEDCE6;}
+.wicked>view{line-height: 2;}
+.remember{background: #FFF;padding:5%;margin-bottom:10rpx;}
+.handle{background:#0B69FA;color:#FFF;border-radius:20rpx;width:20%;padding:3% 0;}
+.tousu{width:40%;position:fixed;top:40%;left:30%;}

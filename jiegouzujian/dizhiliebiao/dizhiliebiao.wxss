@@ -1,0 +1,9 @@
+.jishibiao{width:20%;}
+.jishibiao>image{width:50rpx;margin:0 2%;}
+page{background:#efefef;}
+.dawgjgk{background:#FFF;padding:4% 3%;}
+.siafan{color:#999;margin-top:5%;}
+.xiznengs{width:50rpx;height:50rpx;}
+.awbndui{width:60%;border:1px solid #19D5D3;color:#19D5D3;padding:2% 3%;padding-left:16%; box-sizing:border-box;border-radius:10rpx;}
+.zjixn{margin-left:6%;}
+.dawfa{position:fixed;left:0;bottom:0;background:#FFF;width:100%;padding:3% 0;}

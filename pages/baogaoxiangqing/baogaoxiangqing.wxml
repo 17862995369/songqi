@@ -1,0 +1,50 @@
+<view>
+  <image src="/img/tijianjieguo.png" class="tupian"></image>
+</view>
+<view wx:for="{{aaaaa}}">
+  <view style="padding:0 3%">
+    <view class="dsstyle" bindtap='tjdetail' data-index="{{index}}" >{{item}}</view>
+  </view>
+
+</view>
+<!-- <view class="xinxin">
+  <view style="padding:3% 3%;">
+   <view>出生日期：{{datas.birthss}}</view>
+    <view>身份证号：{{xiansdiwa.ssid}}</view>
+    <view>身高：{{datas.height}}CM</view>
+    <view>体重：{{datas.tizhong}}</view>
+    <view>BMI:{{datas.bnith}}</view>
+    <view style="border:none;">Summary| BMI(体重/身高^2)：{{datas.quchu}}</view> -->
+<!-- <view>收缩压/判别：</view> 
+    <view>脉搏/判别：</view>
+    <view class="zuihou">舒张压/判别：</view> -->
+<!-- </view>
+</view> -->
+<!-- <view>
+  <view style="padding:3% 3%;">
+    <view class="ty_liangduanduiqi fnks">
+      <view class="fnks">体重调节值：</view>
+      <view class="fnks">身体年龄：</view>
+    </view>
+    <view class="ty_liangduanduiqi fnks">
+      <view class="fnks">去脂体重：</view>
+      <view class="fnks">体脂肪量：</view>
+    </view>
+    <view class="ty_liangduanduiqi fnks">
+      <view class="fnks">身体水平：</view>
+      <view class="fnks">蛋白质：</view>
+    </view>
+    <view class="ty_liangduanduiqi fnks">
+      <view class="fnks">肌肉量：</view>
+      <view class="fnks">无机盐：</view>
+    </view>
+    <view class="ty_liangduanduiqi fnks">
+      <view class="fnks">腰臂比：</view>
+      <view class="fnks">内脏脂肪面积：</view>
+    </view>
+  </view>
+</view>  -->
+<!-- <view class="ty_hengpai gvvnis">
+    <view class="hdaoiwdf">bodytype：</view>
+    <view class="huifu">{{xiansdiwa.bodytype}}</view>
+</view> -->

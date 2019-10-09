@@ -1,0 +1,24 @@
+<view class="xiaofei ty_shangxiaduiqi">
+   <view>消费金额(元)</view>
+   <view class='momey'>18.00</view>
+</view>
+<view class="juanjin">
+  <view class="ty_liangduanduiqi jixv">
+    <view class="xiangdui">车牌号：</view>
+    <view>鲁A●1123456</view>
+  </view>
+ <view class="ty_liangduanduiqi jixv">
+    <view class="xiangdui">停车点：</view>
+    <view>阳光100东停车场</view>
+  </view>
+   <view class="ty_liangduanduiqi jixv">
+    <view class="xiangdui">入场时间：</view>
+    <view>2019-01-28 12：00</view>
+  </view>
+   <view class="ty_liangduanduiqi jixv">
+    <view class="xiangdui">出场时间：</view>
+    <view>2019-01-28 1：00</view>
+  </view>
+</view>
+<view class="enrde">停车每小时2元钱，半小时内不收费</view>
+<view class="luoshui ty_anniu">去支付</view>

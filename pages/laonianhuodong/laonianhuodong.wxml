@@ -1,0 +1,15 @@
+<block >
+<view   bindtap="tiaozhuan" data-url="/pages/gonggaoxiangqing/gonggaoxiangqing?id={{item.id}}">
+<view class="ty_anniu price" >
+  <view class="skill">{{item.create_time}}</view>
+</view>
+<view class="notice">
+  <view class="system"><text style="color:red;" wx:if="{{item.read_status==0?true:false}}">●</text>系统通知</view>
+  <view class="nervous">{{item.title}}</view>
+  <!-- <view class="ty_liangduanduiqi specifications">
+    <view class="birth">查看详情</view>
+    <image src="/img/shuang.png" mode='widthFix' class="send"></image>
+  </view> -->
+</view>
+</view>
+</block>

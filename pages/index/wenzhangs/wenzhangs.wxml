@@ -1,0 +1,3 @@
+<import src="../../../wxParse/wxParse.wxml"/> 
+<view style="text-align:center;margin:2%;">{{title}}</view>
+ <view style="margin:50rpx;"><template is="wxParse" data="{{wxParseData:article.nodes}}"/></view>

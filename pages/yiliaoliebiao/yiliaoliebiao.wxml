@@ -1,0 +1,8 @@
+<view class="efak" wx:for="{{list}}">
+  <view>患者姓名：{{item.username}}</view>
+  <view>预约手机：{{item.mobile}}</view>
+  <view>预约时间：{{item.create_time}}</view>
+  <view>年龄：{{item.sex}}</view>
+  <view>备注：{{item.content}}</view>
+</view>
+<image src="/img/zanwus.png" mode='widthFix' class="dawdawi" wx:if="{{dainkai}}"></image>

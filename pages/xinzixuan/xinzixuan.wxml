@@ -1,0 +1,4 @@
+<import src="../../wxParse/wxParse.wxml"/> 
+<view class="asdasifasad">{{lemdng.title}}</view>
+<view class="duiahu">{{lemdng.start_time}}</view>
+<view style="margin:0 50rpx;"><template is="wxParse" data="{{wxParseData:article.nodes}}"/></view>

@@ -1,0 +1,35 @@
+<form bindsubmit="formSubmit">
+  <view class="ideal ty_anniu">
+    <view class="ty_hengpai">
+      <image src="{{zhonglei}}" class="eate" mode='widthFix'></image>
+      <view>{{shui}}</view>
+    </view>
+  </view>
+  <view class="quarters">
+    <view class="ty_liangduanduiqi tidy">
+      <view>小区名称</view>
+      <view>
+        <input type="text" placeholder='请输入小区名字' name="xiaoqv" />
+      </view>
+    </view>
+    <view class="ty_liangduanduiqi tidy">
+      <view>大楼号码</view>
+      <view>
+        <input type="text" placeholder='请输入大楼号码' name="dalou" />
+      </view>
+    </view>
+    <view class="ty_liangduanduiqi tidy">
+      <view>单元号码</view>
+      <view>
+        <input type="text" placeholder='请输入单元号码' name="danyuan" />
+      </view>
+    </view>
+    <view class="ty_liangduanduiqi tidy">
+      <view>门牌号码</view>
+      <view>
+        <input type="text" placeholder='请输入门牌号码' name="menpai" />
+      </view>
+    </view>
+  </view>
+  <button formType="submit" class="query ty_anniu">查询</button>
+</form>

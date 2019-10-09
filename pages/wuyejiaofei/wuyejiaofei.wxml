@@ -1,0 +1,18 @@
+<view class="jiaofeis">缴费账单明细</view>
+  <!-- <view class="ty_dan jiankan lijis" wx:for="{{shi}}">
+    <view>{{item.paymonth}}</view>
+    <view>费用：{{item.total}}</view>
+    <view>{{item.status==0?"未支付":"已支付"}}</view>
+  </view> -->
+<view class="lijis ty_bumam">
+
+  <view wx:for="{{shi}}" data-pan="{{item.status}}" style='{{item.status==0?"":"border:1px solid #efefef;color:#efefef;"}}' class="yaska {{item.yanse}}" bindtap="dianjzhi" data-index="{{index}}" data-total="{{item.total}}" data-yanse="{{item.yanse}}">
+   <view>{{item.name}}</view>
+   <view>费用：{{item.total}}</view>
+   <view>{{item.status==0?"未支付":"已支付"}}</view>
+  </view>
+</view>
+<view class="zkawu ty_liangduanduiqi">
+  <view style="padding-left:3%;">总计：{{total}}元</view>
+  <view class="zhideju" bindtap="zhifuks">立即支付</view>
+</view> 

@@ -1,0 +1,50 @@
+<view class="warp">
+<view class="ty_liangduanduiqi baobaozi">
+  <view class="ty_hengpai">
+    <image src="{{shuju.avatar}}" class="ty_touxiang yongbushang"></image>
+
+      <view class="houfa">{{shuju.username}}</view>
+   
+
+  </view>
+
+</view>
+
+   <view class="dajyus">{{shuju.content}}</view>
+   <view class="ty_bumam sadawi" wx:if="{{shuju.yinyi}}">
+ <image src="{{itemName}}" bindtap="yvlan" data-index="{{index}}" data-url="{{itemName}}" data-indexs="{{shuju.img}}"  wx:for-item="itemName" wx:for="{{shuju.img}}"  mode="widthFix" style="width:100%;"></image>
+</view>
+ <view class="ty_liangduanduiqi sadawi" wx:if="{{shuju.yiner}}">
+ <image src="{{itemName}}" bindtap="yvlan" data-index="{{index}}" data-url="{{itemName}}" data-indexs="{{shuju.img}}"  wx:for-item="itemName" wx:for="{{shuju.img}}"  mode="widthFix" style="width:50%;"></image>
+</view>
+ <view class="ty_bumam sadawi" wx:if="{{shuju.yinsan}}">
+ <image src="{{itemName}}" bindtap="yvlan" data-index="{{index}}" data-url="{{itemName}}" data-indexs="{{shuju.img}}"  wx:for-item="itemName" wx:for="{{shuju.img}}"  mode="widthFix" style="width:30%;margin:1%;"></image>
+</view>
+   <view class="ty_juyou" style='margin-top:2%;'>
+  <view class="renjiaqian ty_hengpai">
+    <!-- <image src="/img/pinglun.png" class="busdhai" bindtap='xuanchuan'></image> -->
+    <image src="{{shuju.zan==0?'/img/dianzan.png':'/img/hongses.png'}}" class="busdhai" style="margin-top:-4%;"data-dianzan="{{shuju.zan}}" data-luntanid="{{shuju.id}}" bindtap='dianzan' ></image>
+    <view style="color:#C4C4C4;">{{shuju.zannum}}</view>
+  </view>
+   </view>
+</view>
+<view style="padding-bottom:15%;" class="zsjdwaog">
+<view class="zhenala">全部评论</view>
+<view  style="padding:3%;border-bottom:2px solid #F0F1F1;"  wx:for="{{huifulie}}">
+<view class="ty_hengpai">
+  <image src="{{item.avatar}}" class="ty_touxiang" style="width:110rpx;height:110rpx;"></image>
+ <view style="margin-left:3%;">
+    <view class="ty_liangduanduiqi">
+      <view>{{item.username}}</view>
+    </view>
+      <view>{{item.create_time}}</view>
+ </view>
+
+</view>
+ <view class="gaudawk">{{item.content}}</view>
+</view>
+<view class="asdkawi ty_liangduanduiqi" >
+  <input type="text" placeholder='请输入回复评论' bindinput="shursai" class="fuhuishang"/>
+  <view class="huifusk" bindtap="wufenzhong">回复</view>
+</view>
+</view>

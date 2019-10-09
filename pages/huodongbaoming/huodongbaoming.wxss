@@ -1,0 +1,11 @@
+/* pages/yilianjigou/yilianjigou.wxss */
+.tanxhuan{border:1px solid #D4D4D4;height:87rpx;border-radius:10rpx;width:100%;}
+.huanzhe{width:24%;}
+.shenmzhishi{width:76%;}
+page{box-sizing:border-box;padding-top:0;background:#EDEDF9;}
+.jeihui{padding:2% 0;}
+.mingyings{width:50rpx;height:50rpx;}
+.gahuanxin{background:#0C68FF;color:#FFF;padding:3%;border-radius:20rpx;margin-top:5%;}
+.znazenmban{background: #FFF;box-sizing:border-box;padding:0 6%;padding-bottom:5%;}
+.zhebeizi{border:1px solid #D4D4D4;width:100%;}
+.chengxv{width:100rpx;}

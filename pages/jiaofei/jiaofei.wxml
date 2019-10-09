@@ -1,0 +1,19 @@
+<view class="ty_liangduanduiqi fool">
+  <view class="ty_shangxiaduiqi" data-url="/pages/shuifei/shuifei?type=1" bindtap="xianwas">
+    <image src="/img/shuifei.png" mode='widthFix' class="illness"></image>
+    <view class="guarantee">水费</view>
+  </view>
+  <view class="ty_shangxiaduiqi call" data-url="/pages/shuifei/shuifei?type=2" bindtap="xianwas">
+    <image src="/img/dianfei.png" mode='widthFix' class="illness"></image>
+    <view class="guarantee">电费</view>
+  </view>
+    <view class="ty_shangxiaduiqi" data-url="/pages/shuifei/shuifei?type=3" bindtap="xianwas">
+    <image src="/img/huo.png" mode='widthFix' class="illness"></image>
+    <view class="guarantee">燃气费</view>
+  </view>
+</view>
+<view class="soft">
+  <view>1.确认缴费小区和户号后，阅读《缴费协议》并确认。</view>
+  <view>2.电表剩余金额为0后，自动断电，充值后方能使用。</view>
+  <view>3.统一电价为：0.57元/度。</view>
+</view>

@@ -1,0 +1,14 @@
+<!--pages/sheqvhuodong/sheqvhuodong.wxml-->
+
+<view class="caiwu" wx:for="{{sheqv}}">
+  <image src="{{item.thumb}}" class="tuandui" mode="widthFix"></image>
+  <view class="ty_liangduanduiqi liuzong">
+    <view>
+       <view class="sxan">{{item.title}}</view>
+       <view class="baoming">共{{item.bm_max}}人</view>
+    </view>
+    <view class="xiangqingcha" bindtap="dawfawf" data-url="/pages/baomingxiangqing/baomingxiangqing?id={{item.id}}">
+      查看详情
+    </view>
+  </view>
+</view>

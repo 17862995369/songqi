@@ -1,0 +1,116 @@
+<template name="shigongyuan">
+<view class="meishi">
+  <view class="hengxinalou">
+    <view class="ty_liangduanduiqi">
+      <view>预约时间：</view>
+      <view>{{item.worktime}}</view>
+    </view>
+    <view class="ty_liangduanduiqi">
+      <view>卡号：</view>
+      <view class="yanse">{{item.card_id}}</view>
+    </view>
+    <view class="ty_liangduanduiqi">
+      <view>预约人：</view>
+      <view>{{item.nicename}}</view>
+    </view>
+  </view>
+   <view class="hengxinalou">
+    <view class="ty_liangduanduiqi">
+      <view>预约电话：</view>
+      <view  class="yanse" bindtap="boda" data-haoma="{{item.mobile}}">{{item.mobile}}</view>
+    </view>
+    <view class="ty_liangduanduiqi">
+      <view>预约地址：</view>
+      <view>{{item.area}}</view>
+    </view>
+    <view class="ty_liangduanduiqi">
+      <view>详细地址：</view>
+      <view>{{item.address}}</view>
+    </view>
+       <view class="ty_liangduanduiqi">
+      <view>下单时间：</view>
+      <view>{{item.create_time}}</view>
+    </view>
+  </view>
+  <view class="ty_juyou xiamian">
+    <view class="qiangdan ty_anniu" bindtap="qiangdan" data-id="{{item.order_sn}}" wx:if="{{item.showstatus=='已预约'?true:false}}">抢单</view>
+  </view>
+  <view class="ty_juyou xiamian">
+    <view class="qiangdan ty_anniu" bindtap="queren" data-url="/pages/shigong/xiangqing/xiangqing?id={{item.order_sn}}" data-id="{{item.order_sn}}" wx:if="{{item.showstatus=='已接单'?true:false}}">查看详情</view>
+  </view>
+</view>
+</template>
+<template name="xiangqing">
+<view class="meishi">
+  <view class="hengxinalou">
+    <view class="ty_liangduanduiqi">
+      <view>预约时间：</view>
+      <view>{{worktime}}</view>
+    </view>
+    <view class="ty_liangduanduiqi">
+      <view>卡号：{{card_id}}</view>
+      <view class="yanse"></view>
+    </view>
+    <view class="ty_liangduanduiqi">
+      <view>预约人：</view>
+      <view>{{worker}}</view>
+    </view>
+  </view>
+   <view class="hengxinalou">
+    <view class="ty_liangduanduiqi">
+      <view>预约电话：</view>
+      <view  class="yanse">{{mobile}}</view>
+    </view>
+    <view class="ty_liangduanduiqi">
+      <view>预约地址：</view>
+      <view>{{area}}</view>
+    </view>
+    <view class="ty_liangduanduiqi">
+      <view>详细地址：</view>
+      <view>{{address}}</view>
+    </view>
+     <view class="ty_liangduanduiqi">
+      <view>备注信息：</view>
+      <view>{{worker==null?' ':worker}}</view>
+    </view>
+       <view class="ty_liangduanduiqi">
+      <view>下单时间：</view>
+      <view>{{create_time}}</view>
+    </view>
+  </view>
+  <view>
+    <view class="paizhao">拍照上传已维修门锁图片</view>
+    <view class="ty_liangduanduiqi">
+      <view class="ty_hengpai">
+        <image src="/img/tupian.png" class="yongbuzhoa" bindtap="diaoyong" wx:if="{{diao}}"></image>
+        <view  wx:for="{{shuzus}}" class="erjifen"> 
+           <image src="/img/qvxiao.png" class="huier" data-l="{{item.img}}" bindtap="shanchu"></image>
+           <image class="yongbuzhoa sadawi"  src="{{item.img}}"></image>
+        </view>
+      </view>
+      <view class="ty_hengpai" bindtap="sadawuxo">
+        <view style="margin-right:20rpx;">示例</view>
+        <image src="/img/erwei.png" class="shili"></image>
+      </view>
+    </view>
+  </view>
+    <view class="hengxinalou">
+    <view class="ty_liangduanduiqi">
+      <view>施工师傅：</view>
+      <view>{{workername}}</view>
+    </view>
+     <view class="ty_liangduanduiqi">
+      <view>师傅电话：</view>
+      <view>{{workerphone}}</view>
+    </view>
+     <view class="ty_liangduanduiqi">
+      <view>接单时间：</view>
+      <view>{{grabtime}}</view>
+    </view>
+</view>
+<view class="dingadan ty_liangduanduiqi">
+  <view class="ty_anniu wancheding" bindtap='wancheng'>完成订单</view>
+  <view class="ty_anniu"  bindtap='dingdnshan'>删除订单</view>
+</view>
+</view>
+</template>

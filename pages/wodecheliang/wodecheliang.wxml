@@ -1,0 +1,14 @@
+<view class="property ty_liangduanduiqi"  wx:for="{{fangchan}}">
+  <view class="forget">
+    <view>{{item.car}}</view>
+    <view>{{item.num}}</view>
+  </view>
+  <view class="delete ty_anniu" bindtap="shanchu" data-id='{{item.id}}'>删除</view>
+</view>
+<view class="ty_anniu smiling">
+<view class="ty_hengpai" bindtap='tianjiafangchan' data-url="{{urlss}}">
+  <image src="/img/tianjia.png" class="plus"></image>
+  <view>{{tianjia}}</view>
+</view>
+</view>
+<image src="/img/chelaings.png" class="awdiaif" mode="widthFix" wx:if="{{yinagng}}"></image>

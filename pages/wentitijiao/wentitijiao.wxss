@@ -1,0 +1,9 @@
+/* pages/wentitijiao/wentitijiao.wxss */
+page{background:#EDEDF7;padding:5%; box-sizing:border-box;}
+.huiqv{color:#4687DD;font-size:25rpx;}
+.jiyi{width:100%;background:#FFF;border-radius: 20rpx;margin-top:5%;}
+.sahuang{height:80rpx;}
+.zhijie{margin-left:40rpx;color:#B0B0B0;font-size:25rpx;}
+.xiangdui{background:#FFF;margin-top:5%;padding:3%;width:94%;border-radius:20rpx;font-size:25rpx;}
+.baogui{font-size:25rpx;color:#B0B0B0; margin-top:5%;}
+.shitou{background: #0D68FF;color:#FFF;width:100%;margin-top:5%;border-radius:20rpx;font-size:26rpx;}

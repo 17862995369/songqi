@@ -1,0 +1,35 @@
+<import src="../../wxParse/wxParse.wxml" />
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" style="height:{{Height}};">
+  <block>
+    <swiper-item>
+      <image src="{{xunhu.thumb}}" class="slide-image" style="width:100%;" mode="widthFix" bindload="tukuagao" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class="ty_liangduanduiqi sdhuoz">
+  <view class="xunsi">{{xunhu.title}}</view>
+  <view class="miyib">已报名{{xunhu.num}}人</view>
+</view>
+<view class="ty_liangduanduiqi sdhuoz">
+  <view class='ty_hengpai'>
+    <view class='blueLine'></view>
+    <view class="shaku">活动时间</view>
+  </view>
+  <view>{{xunhu.start_time}}——{{xunhu.end_time}}</view>
+</view>
+<view class="ty_liangduanduiqi sdhuoz gagai">
+  <view class='ty_hengpai'>
+    <view class='blueLine'></view>
+    <view class="shaku">活动详情</view>
+  </view>
+
+
+  <!-- <view>2019-12-31 13:00</view> -->
+</view>
+<view class="zhijiebu">
+  <!-- <image src="/img/kanchu.png" class="quanjialv"> </image> -->
+  <view class="nieoij">
+    <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+  </view>
+</view>
+<view class="baomignsk ty_anniu" style="{{yanse}}" bindtap="baomingss">{{bin}}</view>

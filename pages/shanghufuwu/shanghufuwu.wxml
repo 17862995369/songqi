@@ -1,0 +1,6 @@
+<!-- <cover-view  class="ty_hengpai zenm">
+<cover-image src="/img/guanbi.png" style="width:60rpx;height:60rpx;" mode="widthFix" ></cover-image>
+<cover-view style="color:#cdcdcd;">关闭页面</cover-view>
+</cover-view> -->
+
+<web-view src="{{dizhi}}" style="margin-top:10%;"></web-view>

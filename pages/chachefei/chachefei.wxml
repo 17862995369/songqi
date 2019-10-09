@@ -1,0 +1,26 @@
+<view class="asfaj ty_anniu">
+<view class="adawfx">
+   <view class="ty_anniu">消费金额 (元)</view>
+  <view class="ty_anniu yisealei">18元</view>
+</view>
+</view>
+<view class="pignshi">
+  <view class="ty_liangduanduiqi chenwei">
+    <view class="afansi">车牌号：</view>
+    <view>鲁A●123456</view>
+  </view>
+<view class="ty_liangduanduiqi chenwei">
+    <view class="afansi">停车点：</view>
+    <view>阳光100东停车场</view>
+  </view>
+  <view class="ty_liangduanduiqi chenwei">
+    <view class="afansi">入场时间：</view>
+    <view>2015-25-14 12：15</view>
+  </view>
+   <view class="ty_liangduanduiqi chenwei">
+    <view class="afansi">总计时：</view>
+    <view>约90分钟</view>
+  </view>
+</view>
+<view class="xiaos">停车每小时2元钱，半小时内不收费</view>
+<view class="tdousa ty_anniu">完成</view>

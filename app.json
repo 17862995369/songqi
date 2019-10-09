@@ -1,0 +1,112 @@
+{
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+
+  "pages": [
+  
+    "pages/index/index",
+     "pages/bianmin/bianmin",
+    "pages/gonggao/gonggao", 
+    "pages/luntanliebiao/luntanliebiao",
+    "pages/changzu/changzu",
+    "pages/tingchechang/tingchechang",
+    "pages/jiaofeitijiao/jiaofeitijiao",
+    "pages/chachefei/chachefei",
+    "pages/wode/wode",
+    "pages/baogaoxiangqing/baogaoxiangqing",
+    "pages/jiaofei/jiaofei", 
+    "pages/xinzixuan/xinzixuan",
+    "pages/chaxun/chaxun",
+    "pages/zixun/zixun",
+     "pages/diaochawenjuan/diaochawenjuan",
+     "pages/diaochawenjuanxiang/diaochawenjuanxiang",
+    "pages/guanjia/guanjia",
+    "pages/jiaofeidingdan/jiaofeidingdan",
+    "pages/shuifei/shuifei",
+                                          
+    "pages/menjin/menjin",
+    "pages/luntanxiangqing/luntanxiangqing",
+    "pages/login/login",
+    "pages/pays/pays",
+
+    "pages/pay/pay",
+    "pages/xiangqing/xiangqing",
+    "pages/wuyejiaofei/wuyejiaofei",
+    "pages/bangding/tianjiafangchan/tianjiafangchan",
+    "pages/xuanze/xuanze",
+   
+    "pages/shanghufuwu/shanghufuwu",
+    
+    "pages/bangding/bangdingche/bangdingche",
+  
+    "pages/luntan/luntan",
+    "pages/xiaofeijine/xiaofeijine",
+    "pages/feiyongzhangdan/feiyongzhangdan",
+   
+    "pages/yilianjigou/yilianjigou",
+    "pages/yiliaoliebiao/yiliaoliebiao",
+    "pages/weixiufuwu/weixiufuwu",
+    "pages/baomingxiangqing/baomingxiangqing",
+    "pages/huodongliebiao/huodongliebiao",
+    "pages/huodongbaoming/huodongbaoming",
+    "pages/sheqvhuodong/sheqvhuodong",
+    "pages/laonianhuodong/laonianhuodong",
+    "pages/wenti/wenti",
+    "pages/fangyuan/fangyuan",
+    "pages/gonggaoxiangqing/gonggaoxiangqing",
+    "pages/wentitijiao/wentitijiao",
+    "pages/bangding/bangdingchecaozuo/bangdingchecaozuo",
+    "pages/wodecheliang/wodecheliang",
+    "pages/wodechewei/wodechewei",
+    "pages/cheweibangding/cheweibangding",
+    "pages/sousuo/sousuo",
+    "pages/baogaoxiangqingdetail/baogaoxiangqingdetail"
+     
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "智能社区",
+    "navigationBarTextStyle": "white"    
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx7605335e224edc7b",
+    "wxae8bd4952ff030db"
+  ],
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#0D68FF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "img/shouyes.png",
+        "iconPath": "img/shouye.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "img/gonggaos.png",
+        "iconPath": "img/gonggao.png",
+        "pagePath": "pages/gonggao/gonggao",
+        "text": "公告"
+      },
+      {
+        "selectedIconPath": "img/guanjias.png",
+        "iconPath": "img/guanjia.png",
+        "pagePath": "pages/guanjia/guanjia",
+        "text": "管家"
+      },
+      {
+        "selectedIconPath": "img/wodes.png",
+        "iconPath": "img/wode.png",
+        "pagePath": "pages/wode/wode",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

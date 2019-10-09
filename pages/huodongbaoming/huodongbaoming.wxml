@@ -1,0 +1,25 @@
+  <view class="znazenmban">
+  <view class="ty_hengpai jeihui">
+   <view class="huanzhe">活动名称：</view>
+   <view class="shenmzhishi"><input type="number"  class="tanxhuan"/></view>
+</view>
+  <view class="ty_hengpai jeihui">
+   <view class="huanzhe">报名人数：</view>
+   <view class="shenmzhishi"><input type="number"  class="tanxhuan"/></view>
+</view>
+  <view class="ty_hengpai jeihui">
+   <view class="huanzhe">活动详情：</view>
+   <view class="shenmzhishi">
+     <textarea class="zhebeizi">
+         
+     </textarea>
+   </view>
+</view>
+<view class="ty_hengpai">
+  <view>封面图：</view>
+  <view style="margin-left:5%;">
+    <image src="/img/zhaopian.png" mode="widthFix" class="chengxv"></image>
+  </view>
+</view>
+<view class="gahuanxin ty_anniu">发布</view>
+</view>

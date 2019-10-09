@@ -1,0 +1,9 @@
+/* pages/yilianjigou/yilianjigou.wxss */
+.tanxhuan{border:1px solid #D4D4D4;height:66rpx;border-radius:10rpx;width:100%;font-size: 24rpx;padding: 0 14rpx;}
+.huanzhe{width:21.5%;}
+.shenmzhishi{width:76%;}
+page{padding:3%;box-sizing:border-box;padding-top:0;}
+.jeihui{margin:6% 0;}
+.mingyings{width:38rpx;height:38rpx;}
+.gahuanxin{background:#0C68FF;color:#FFF;border-radius:20rpx;margin-top:5%;font-size:26rpx;}
+.picker{height:100%;font-size:24rpx;}

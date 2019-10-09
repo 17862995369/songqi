@@ -1,0 +1,15 @@
+<view class="property ty_liangduanduiqi"  wx:for="{{fangchan}}">
+  <view class="forget" bindtap="shuoas" data-bangding="{{item.bangding}}" data-url="/pages/wuyejiaofei/wuyejiaofei?id={{item.id}}">
+    <view>{{item.name}}</view>
+    <view>{{item.louyu}}号楼 {{item.num}}</view>
+  </view>
+  <view class="delete ty_anniu" style="{{item.yanse}}" bindtap='tianjiafangchan' data-url='/pages/xuanze/xuanze?id={{item.id}}' data-panduanzhi="{{item.bangding}}">{{item.bangding}}</view>
+</view>
+<!-- 添加房产 -->
+<!-- <view class="ty_anniu smiling">
+<view class="ty_hengpai" bindtap='tianjiafangchan' data-url="{{urlss}}">
+  <image src="/img/tianjia.png" class="plus"></image>
+  <view>{{tianjia}}</view>
+</view>
+</view> -->
+<image src="/img/fangchan.png" class="awdiaif" mode="widthFix" wx:if="{{yinagng}}"></image>

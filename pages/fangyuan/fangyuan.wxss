@@ -1,0 +1,16 @@
+/* pages/fangyuan/fangyuan.wxss */
+page{background:#EDEDF7;}
+.before{width:180rpx;height:1px;}
+.choice{width:300rpx;text-align:center;}
+.although{width:70%;margin:0 auto;}
+.real{width:270rpx;}
+.future{padding:8%;}
+.out{width:153rpx;}
+.door{padding:0 6%;background: #fff;}
+.door>view{height:120rpx;border-bottom:1px solid #E8E8E8;}
+.tung{width:120rpx;height:120rpx;}
+.downstream{padding:5%;background:#FFF;margin-top:5%;}
+.unfamiliar{padding-top:5%;}
+.wife{margin-bottom:8%;}
+.deficit{color:#A7A7A7;}
+.bmission{color:#FFF;background:#0D68FF;width:90%;margin:0 auto;border-radius:40rpx;margin-top:15%;margin-bottom:5%;font-size:30rpx;}

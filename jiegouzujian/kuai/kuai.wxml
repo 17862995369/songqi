@@ -1,0 +1,19 @@
+<!-- 首页业务板块 -->
+<template name="kuaijiindex">
+  <image src="{{item.thumb}}" class="yewuis"></image>
+    <view class="ty_dingdiduiqi nihao">
+       <view>{{item.title}}</view>
+        <view class="sadaiw">{{item.keywords}}</view>
+       <view class="ty_juyou xiangqings"><view class="ty_hengpai">详情<image src="/img/qianfang.png" class="meiyon"></image></view></view>
+    </view>
+</template>
+<!-- 商城精品推荐 -->
+<template name="jingping">
+<view class="wuahsi" style="margin-top:3%;"  bindtap="tianzhuan" data-url="/pages/xiangqign/xiangqign?id={{item.id}}">
+          <image src="{{item.imgs}}"  class="gaotu"></image>
+          <view class="quanzhau">
+            <view>{{item.title}}</view>
+            <view class="huanlehcang">{{item.price}}</view>
+          </view>
+        </view>
+</template>

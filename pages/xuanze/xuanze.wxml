@@ -1,0 +1,61 @@
+<!-- <view class="ty_liangduanduiqi shadow">
+  <view class="imperceptibly">当前选择：</view>
+  <view>公园学府</view>
+</view> -->
+<form  bindsubmit="formSubmit">
+<view class="water">
+  <!-- <view class="ty_hengpai">
+    <view class="name ty_liangduanduiqi">
+     <view>姓</view>
+     <view>名：</view>
+    </view>
+    <view><input type="text" value="请输入真实姓名"  class="certificates"/></view>
+  </view>
+  <view class="ty_hengpai">
+    <view class="name">证件号码：</view>
+    <view><input type="text" value="请输入证件号码" class="certificates"/></view>
+  </view> -->
+   <view class="ty_hengpai">
+    <view class="name">手机号码：</view>
+    <view><input type="text" placeholder='请输入手机号码' bindinput="shoujihao" class="certificates" name="mobile"/></view>
+    <button type="button" class="yanzhegnamsk" disabled='{{disabled}}'  bindtap="huoqvyanzhengma">{{names}}</button>
+  </view>
+   <view class="ty_hengpai">
+    <view class="name">验证码：</view>
+    <view style="margin-left:-6%;"><input type="text"  name="yanzheng" placeholder='请输入验证码' class="certificates" /></view>
+  </view>
+</view>
+<!-- <view class="water">
+<view class="ty_hengpai">
+     <view class="name ty_liangduanduiqi">
+     <view>身</view>
+     <view>份：</view>
+    </view>
+    <view class="ty_liangduanduiqi actually">
+     <view>业主</view>
+     <image src="/img/qianjin.png" class="forward"></image>
+   </view>
+  </view>
+  <view>
+  <view class="auxiliary">辅助资料：</view>
+  <view class="examine">注:上传辅助验证身份的资料,加速审核,如身份证正反面照片、人脸正面照租赁、购屋/租赁合同等(必填)</view>
+  <view class="ty_liangduanduiqi go">
+    <image src="/img/zhaopian.png" class="photo"></image>
+    <image src="/img/zhaopian.png" class="photo"></image>
+    <image src="/img/zhaopian.png" class="photo"></image>
+    <image src="/img/zhaopian.png" class="photo"></image>
+    <image src="/img/zhaopian.png" class="photo"></image>
+  </view>
+  </view>
+</view>
+<view class="water thing">
+  <view class="ty_dan">
+    <view class="name">
+     备注：
+
+    </view>
+    <view class="elopement"><textarea class="certificates" placeholder='填写申请原因' ></textarea> </view>
+  </view>
+</view> -->
+<button form-type="submit"  class="submission ty_anniu">立即绑定</button>
+</form>

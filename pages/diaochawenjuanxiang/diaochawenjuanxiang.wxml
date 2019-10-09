@@ -1,0 +1,34 @@
+<view class="container">
+  <image src="{{diaocha.thumb}}" class="tupian"></image>
+  <view class="neirong">
+    <view class="bianmin">物业便民措施</view>
+    <view class="starttime">开始时间：{{diaocha.start_time}}</view>
+    <view class="endtime">结束时间：{{diaocha.end_time}}</view>
+  </view>
+
+  <view class="neirong">
+    <view  wx:for="{{queslist}}">
+      <view class="ifhoa">{{item.title}}</view>
+
+      <radio-group class="radio-group"  bindchange="radioChange" data-id="{{item.id}}">
+        <label class="radio" wx:for="{{item.option}}" wx:for-item="itemque"  wx:for-index="itemquekey">
+          <radio value="{{itemque}}"/>{{itemque}}
+        </label>
+      </radio-group>
+
+    </view>
+  </view>
+
+</view>
+<!-- <view class="ty_hengpai neirong" bindtap="niming">
+  <image src="{{checks}}" class="danxuans" ></image>
+  <view class="nimionmgh">匿名提交</view>
+</view> -->
+<view class="ty_hengpai neirong" >
+  <checkbox-group bindchange="niming"> 
+    <checkbox  name="niming" value="{{checks}}"></checkbox>
+  </checkbox-group>
+  <view class="nimionmgh">匿名提交</view>
+</view>
+
+<view class="submit" bindtap="tijiao">提交</view>

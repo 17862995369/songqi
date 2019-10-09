@@ -1,0 +1,25 @@
+ <template name="zhifudingdan">
+ <view class="ty_liangduanduiqi genwolao">
+    <image src="{{item.imgs[0]}}" class="dengzhe"></image>
+    <view>{{item.goodname}}</view>
+    <view>￥{{item.goodprice}}</view>
+    <!-- <view class="ty_dan wenwen">
+      <view>-</view>
+      <view>1</view>
+      <view>+</view>
+    </view> -->
+    <view>X{{item.number}}</view>
+  </view>
+  </template>
+ <template name="dan">
+  <view class="ty_dan sadf">
+   <image src="{{imgs[0]}}" class="haohaoli"></image>
+   <view class="ty_dingdiduiqi jiushaol">
+     <view>{{goodname}}</view>
+     <view class="ty_liangduanduiqi">
+       <view>￥{{goodprice}}</view>
+       <view>X{{number}}</view>
+     </view>
+   </view>
+</view>
+  </template>

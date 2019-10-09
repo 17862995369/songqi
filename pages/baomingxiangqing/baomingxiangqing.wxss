@@ -1,0 +1,11 @@
+/* pages/baomingxiangqing/baomingxiangqing.wxss */
+.sdhuoz{border-bottom:1px solid #E8E8E8;padding:3%;}
+.xunsi{font-weight: bold;font-size: 34rpx;}
+.miyib{color:#9F9F9F;}
+.shaku{padding-left:4%;width:200rpx;}
+.gagai{border-top:8px solid #F0EEF9;}
+.zhijiebu{padding:3%;box-sizing:border-box;}
+.quanjialv{width:100%;height:293rpx;}
+.nieoij{line-height: 2;text-indent:2em;padding-bottom:8%;}
+.baomignsk{position:fixed;bottom:0;left:0;width:100%;color:#FFF;background:#0D68FF;padding:3% 0;}
+.blueLine{width:6rpx;height:30rpx;border:1px solid #0D6AFA;background:#0D6AFA;border-radius:30%;}

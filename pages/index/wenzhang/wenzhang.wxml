@@ -1,0 +1,4 @@
+<!--pages/index/wenzhang/wenzhang.wxml-->
+<import src="../../../wxParse/wxParse.wxml"/> 
+<view style="text-align:center;margin-top:10px;font-weight:800;font-size:40rpx;">{{title}}</view>
+ <view style="margin:20rpx;font-size:38rpx;"><template is="wxParse" data="{{wxParseData:article.nodes}}"/></view>

@@ -1,0 +1,9 @@
+page{background:#EDEDF7;}
+.warm{background:#FFF;height:180rpx;font-size:40rpx;}
+.clouds{background:#FFF;margin-top:4%;padding:0 6%;}
+.clouds>view{border-bottom:1px solid #F3F3F4;padding:6% 0;}
+.pupil{width:132rpx;}
+.hesitation>view{width:50%;}
+.hesitation{padding:3%;position:fixed;bottom:0;width:100%;left:0; box-sizing:border-box;}
+.edit{color:#FFF;background:#0D68FF;padding:3%;border-radius:10rpx;border:1px solid #0D68FF;}
+.delete{border:1px solid #0D68FF;color:#0D68FF;padding:3%;border-radius:10rpx;margin-left:30rpx;}

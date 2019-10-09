@@ -1,0 +1,8 @@
+/* pages/shuifei/shuifei.wxss */
+page{background:#EDEDF7;}
+.eate{width:80rpx;margin-right:20rpx;}
+.ideal{background: #fff;padding:3% 0;}
+.quarters{background: #FFF;margin-top:2%;}
+.tidy{padding:5%;border-bottom:1px solid #E9E9E9;}
+.tidy input{text-align: right;}
+.query{background:#0D68FF;color:#FFF;width:90%;margin:0 auto;border-radius:40rpx;margin-top:5%;font-size:30rpx;}

@@ -1,0 +1,4 @@
+/* pages/xinzixuan/xinzixuan.wxss */
+.asdasifasad{text-align: center;font-size:32rpx;padding:2% 0;}
+.duiahu{color:#B7B7B7;margin-left:5%;margin-bottom:2%;}
+.wxParse-p image{display: block; width:100%!important;}

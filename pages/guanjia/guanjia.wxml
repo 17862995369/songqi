@@ -1,0 +1,25 @@
+<view class="ty_liangduanduiqi fool">
+  <view class="ty_shangxiaduiqi">
+    <image src="/img/baoxiu.png" mode='widthFix' class="illness" bindtap="baoxiu" data-bai="报修"></image>
+    <view class="guarantee">报修</view>
+  </view>
+  <view class="ty_shangxiaduiqi call" bindtap="dadianhua">
+    <image src="/img/hujiao.png" mode='widthFix' class="illness"></image>
+    <view class="guarantee">呼叫</view>
+  </view>
+    <view class="ty_shangxiaduiqi"  bindtap="tiaozhuan" data-url="/pages/wentitijiao/wentitijiao">
+    <image src="/img/tousu.png" mode='widthFix' class="illness"></image>
+    <view class="guarantee">投诉</view>
+  </view>
+</view>
+<view class="guarantee ty_liangduanduiqi">
+  <view class="{{item.yanse}}" wx:for="{{dianji}}" data-name="{{item.name}}" bindtap="dainjia">{{item.name}}</view>
+</view>
+<view class="ty_liangduanduiqi remember" wx:for="{{baoxiu}}">
+  <view class="wicked">
+   <view>{{item.create_time}}</view>
+    <view>{{item.typename}}：{{item.address}}</view>
+  </view>
+  <view class="handle ty_anniu" data-zhaungtai="{{item.status}}" bindtap='tianzhuansd' data-id="{{item.id}}" wx:if="{{item.yicang}}">{{item.zhaungtai}}</view>
+</view>
+<image src="/img/zanwussss.png" mode="widthFix" wx:if="{{zanwu}}" class="tousu"></image>

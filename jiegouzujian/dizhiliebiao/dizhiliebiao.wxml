@@ -1,0 +1,26 @@
+<template name="dizhiliebiao">
+<view class="ty_liangduanduiqi dawgjgk" >
+  <view   style="width:70%;" bindtap="fanhui" data-id="{{item.id}}">
+    <view class="ty_hengpai" >
+      <view>{{item.name}}</view>
+       <view class="ty_hengpai" style="width:60%;">
+         <view style="margin:0 4%;">{{item.mobile}}</view>
+         <view>{{item.is_first==1?'默认':''}}</view>
+       </view>
+    </view>
+    <view class="siafan">{{item.area}}{{item.address}}</view>
+  </view>
+  <view class="jishibiao ty_liangduanduiqi">
+    <image src="/img/xiu.png" mode='widthFix'   bindtap='tianzhuan' data-url="/pages/dizhi/xiugais/xiugais?id={{item.id}}"></image>
+    <image src="/img/shan.png" mode='widthFix' data-bu="{{item.id}}" bindtap="chongxin"></image>
+  </view>
+</view>
+</template>
+<template name="liebiaodibu">
+<view class=" ty_anniu dawfa">
+<view class="ty_hengpai awbndui" bindtap='tianzhuan' data-url="/pages/dizhi/xiugai/xiugai">
+  <image src="/img/jia.png" class="xiznengs"></image>
+  <view class="zjixn">新增地址</view>
+</view>
+</view>
+</template>

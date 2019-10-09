@@ -1,0 +1,14 @@
+<view class="ty_pingxinjuzhong awkdiaw" wx:if="{{sdgasefa}}">
+ <view class="ty_hengpai" bindtap="saoma">
+  <image src="/img/sss.png" mode="widthFix" class="jigesha"></image>
+  <view class="shuonahua">扫码开锁{{saomas}}</view>
+</view>
+</view>
+<view class="nengbun ty_liangduanduiqi" wx:for="{{menjin}}">
+  <view class="ty_shangxiaduiqi jishiyou">
+   <view>{{item.name}}</view>
+   <view>{{item.num}}</view>
+  </view>
+  <image src="/img/yaochi.png" mode="widthFix" class="yaohdi" bindtap='dianiji' data-yanjiu="{{item.opennum}}"></image>
+</view>
+<image src="/img/fangchan.png"  mode="widthFix" style="width:60%;margin-top:15%;margin-left:20%;" wx:if="{{sgfaga}}"></image>

@@ -1,0 +1,9 @@
+/* pages/menjin/menjin.wxss */
+page{background:#EDEDF9;}
+.jigesha{width:70rpx;}
+.shuonahua{font-size:36rpx;margin-left:4%;width:200rpx;margin-top:-5%;}
+.guyes{margin:5% auto;}
+.awkdiaw{padding:5% 0;background:#FFF;}
+.yaohdi{width:90rpx;}
+.nengbun{background:#FFF;margin-top:2%;padding:3%;}
+.jishiyou>view{line-height:2;}

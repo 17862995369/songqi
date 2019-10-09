@@ -1,0 +1,15 @@
+/* pages/jiaofei/jiaofei.wxss */
+/* pages/guanjia/guanjia.wxss */
+page{background:#EDEDF7;}
+.illness{width:140rpx;}
+.guarantee{text-align: center;background:#FFF;margin-top: 10rpx;}
+.fool{padding:8% 3%;border-bottom:1px solid #E4E4E4;background:#FFF;}
+.fool>view{width:33%;}
+.guarantee>view{width:50%;text-align:center;padding:3% 0;}
+.simple{border-bottom:2px solid #0B69FA;}
+.complaint{border-bottom:2px solid #DEDCE6;}
+.wicked>view{line-height: 2;}
+.remember{background: #FFF;padding:5%;margin-bottom:10rpx;}
+.handle{background:#0B69FA;color:#FFF;padding:3% 5%;border-radius:20rpx;}
+.soft{background:#FFf;margin-top:2%;padding:5%;}
+.soft>view{line-height:3;font-size: 24rpx;color:#505050;}

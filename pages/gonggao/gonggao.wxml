@@ -1,0 +1,22 @@
+<block wx:for="{{xingqing}}">
+  <view bindtap="tiaozhuan" data-url="/pages/gonggaoxiangqing/gonggaoxiangqing?id={{item.id}}">
+    <view class="ty_anniu price">
+      <view class="skill">{{item.create_time}}</view>
+    </view>
+    <view class="sadjiafj">
+      <image src="{{item.thumb}}" style="display:block;"></image>
+      <view class="dbawudshi ty_anniu">{{item.title}}</view>
+    </view>
+  </view>
+</block>
+<image src="/img/zanwus.png" mode='widthFix' class="dawdawi" wx:if="{{dainkai}}"></image>
+<!--<view class="notice">
+      <view class="system ty_liangduanduiqi">
+       <!-- <view class="yaun" style="font-size:30rpx;{{item.read_status==0?'background:red;':'background:#FFF;'}}"></view> 
+       系统公告  <view class="birth">查看详情</view></view>
+      <view class="nervous">{{item.title}}</view>
+      <view class="ty_liangduanduiqi specifications">
+      
+        <!-- <image src="/img/shuang.png" mode='widthFix' class="send"></image> 
+      </view>
+    </view>-->

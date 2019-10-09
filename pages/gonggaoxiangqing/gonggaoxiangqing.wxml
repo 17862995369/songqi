@@ -1,0 +1,6 @@
+<import src="../../wxParse/wxParse.wxml"/> 
+<view style="text-align:center;">{{title}}</view>
+<view class="ty_liangduanduiqi silver" style="margin-bottom:3%;">
+  <view>{{create_time}}</view>
+</view>
+ <view style="margin:0 50rpx;"><template is="wxParse" data="{{wxParseData:article.nodes}}"/></view>

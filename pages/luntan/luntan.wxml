@@ -1,0 +1,17 @@
+
+<view>
+  <textarea placeholder='这一刻的想法......' class="xiangfa" bindinput="haioxkzkial">
+  
+  </textarea>
+</view>
+<!--  -->
+<view class="bunengge">
+  <image src="/img/shangchuan.png" class="yanalaosi" bindtap="diaoyong" wx:if="{{xiangfa}}"></image>
+  <view class="ty_bumam">
+     <view wx:for="{{tupianzu}}" class="ty_xianfd xvyadia">
+        <image src="/img/xiaoxiao.png" class="buxianzhe" data-image="{{item}}" bindtap="shanchu" style="width:50rpx;height:50rpx;"></image>
+        <image src="{{item}}" class="yanalaosi" bindtap='previewImage'></image>
+     </view>
+  </view>
+</view>
+<view class="gahuanxin ty_anniu" bindtap='fabusadwa'>发布</view>

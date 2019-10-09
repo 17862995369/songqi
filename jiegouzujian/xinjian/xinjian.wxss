@@ -1,0 +1,8 @@
+/* pages/bangding/tianjiafangchan/tianjiafangchan.wxss */
+page{background:#EDEDF7;}
+.property{background:#FFF;padding:5%;margin-bottom:10rpx;}
+.forget>view{line-height:2;}
+.delete{background:#0D68FF;color:#FFF;padding:2%;width:130rpx;border-radius:10rpx;font-size: 24rpx;}
+.plus{width:46rpx;height:46rpx;}
+.awdiaif{width:50%;margin-left:25%; margin-top:20%;}
+.smiling{background:#0D68FF;color:#FFF;width:90%;margin-left:5%;margin-bottom:3%;border-radius:20rpx;height:100rpx;position:fixed;bottom:0;left:0;}

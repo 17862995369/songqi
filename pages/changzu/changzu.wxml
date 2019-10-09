@@ -1,0 +1,14 @@
+<view class="zuoshenm ty_anniu">xxxx停车场 A区车位</view>
+
+<view class="fanket">
+
+<view class="ty_liangduanduiqi baidat" bindtap='xaingkaiw'>
+
+  <view>
+    <image src="/img/dengsmei.png" mode="widthFix" class="ssadiziy"></image>
+    <view class="ty_anniu">已出租</view>
+  </view>
+
+  <view class="fehenzhengc">01</view>
+</view>
+</view>

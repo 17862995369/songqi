@@ -1,0 +1,6 @@
+/* pages/jiaofeidingdan/jiaofeidingdan.wxss */
+page{background:#EDEDF9;}
+.dawwushu view{width: 25%;padding:3.6% 0;}
+.dawwushu{background: #FFF;}
+.youling{background: #9FC3FF;color:#FFF;}
+.zanwu{text-align: center;margin-top:10%;}

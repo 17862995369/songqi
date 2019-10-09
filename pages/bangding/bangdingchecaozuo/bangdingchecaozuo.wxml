@@ -1,0 +1,24 @@
+<view class="warm ty_anniu">
+     鲁A●45525
+</view>
+<view class="clouds">
+    <view class="ty_liangduanduiqi">
+      <view class='ty_juyou pupil'>年终日期:</view>
+      <view>2018-01-01</view>
+    </view>
+      <view class="ty_liangduanduiqi">
+      <view class='ty_juyou pupil'>保险单号:</view>
+      <view>2018-01-01</view>
+    </view>
+     <view class="ty_liangduanduiqi">
+      <view class="ty_liangduanduiqi pupil">
+       <view>备</view>
+       <view>注:</view>
+      </view>
+      <view>2018-01-01</view>
+    </view>
+</view>
+<view class="ty_liangduanduiqi hesitation">
+  <view class="ty_anniu edit">编辑</view>
+  <view class="ty_anniu delete">删除</view>
+</view>

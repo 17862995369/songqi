@@ -1,0 +1,78 @@
+<view class="ty_xianfd">
+  <image src="/img/lan.png" class="xieqilai"></image>
+  <view class="ty_anniu dfsaf zhihou">
+  <view class="ty_shangxiaduiqi ">
+    <image src="{{avatar}}" class="ty_touxiang"></image>
+    <view>{{username}}</view>
+  </view>
+    </view>
+  <!-- <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber" class="bangdingshouji">绑定手机号</button> -->
+</view>
+<view class="ty_bumam">
+  <view class="ty_hengpai taiguo laiwu" bindtap="tiaozhuan" data-url="/pages/bangding/tianjiafangchan/tianjiafangchan">
+    <image src="/img/fangwu.png" mode='widthFix' class="youmaobing"></image>
+    <view>
+      <view>我的房产</view>
+      <view class="bangding">已绑定{{fccount}}层</view>
+    </view>
+  </view>
+  <view class="ty_hengpai taiguo " data-url="/pages/shuifei/shuifei" bindtap="tiaozhuan">
+    <image src="/img/shuidianzhangdan.png" mode='widthFix' class="youmaobing"></image>
+    <view>
+      <view>水电账单</view>
+      <view class="bangding">{{zhangdan}}</view>
+    </view>
+  </view>
+  <view class="ty_hengpai taiguo laiwu" bindtap="tiaozhuan" data-url="/pages/wodecheliang/wodecheliang">
+    <image src="/img/chelaing.png" mode='widthFix' class="youmaobing"></image>
+    <view>
+      <view>我的车辆</view>
+      <view class="bangding">已绑定{{clcount}}辆</view>
+    </view>
+  </view>
+  <view class="ty_hengpai taiguo" bindtap="tiaozhuan" data-url="/pages/wodechewei/wodechewei">
+    <image src="/img/chewei.png" mode='widthFix' class="youmaobing"></image>
+    <view>
+      <view>我的车位</view>
+      <view class="bangding">{{cwcount}}</view>
+    </view>
+  </view>
+  <view class="ty_hengpai taiguo laiwu" bindtap="baoxiu" data-url="/pages/fangyuan/fangyuan">
+    <image src="/img/baoxius.png" mode='widthFix' class="youmaobing"></image>
+    <view>
+      <view>我的报修</view>
+      <view class="bangding">最新订单</view>
+    </view>
+  </view>
+  <view class="ty_hengpai taiguo" bindtap="tiaozhuan" data-url="/pages/wentitijiao/wentitijiao">
+    <image src="/img/tousus.png" mode='widthFix' class="youmaobing"></image>
+    <view>
+      <view>投诉建议</view>
+      <view class="bangding">有什么建议</view>
+    </view>
+  </view>
+  <view class="ty_hengpai taiguo laiwu" bindtap="tiaozhuan" data-url="/pages/yiliaoliebiao/yiliaoliebiao">
+    <image src="/img/lianxidianhua.png" mode='widthFix' class="youmaobing"></image>
+    <view>
+      <view>我的预约</view>
+      <view class="bangding"></view>
+    </view>
+  </view>
+  <view class="ty_hengpai taiguo" bindtap="tiaozhuan" data-url="/pages/chaxun/chaxun">
+    <image src="/img/cesse.png" mode='widthFix' class="youmaobing"></image>
+    <view>
+      <view>查询结果</view>
+      <view class="bangding">优化体检</view>
+    </view>
+  </view>
+</view>
+<!-- <view class="tanchu" wx:if="{{xianshi}}"></view>
+<view class="bangdings"  wx:if="{{xianshi}}">
+<view class="wanshanzilaio">完善资料</view>
+<view class=" ty_hengpai bushibn">
+ <view>绑定手机号：</view>
+ <view><input type="text" placeholder='请输入您的手机号' bindinput="asdkawu"/></view>
+ </view>
+ <view class="padawi" bindtap="queding">确定绑定</view>
+</view> -->
+<image src="/img/jiaofes.png" mode='widthFix' style="width:130rpx;" class="mignh" bindtap='dainche'></image>

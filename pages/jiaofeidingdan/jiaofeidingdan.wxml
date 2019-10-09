@@ -1,0 +1,4 @@
+<view class="ty_liangduanduiqi dawwushu">
+  <view wx:for="{{asdjh}}" class="ty_anniu" style='{{item.act}}' data-index="{{index}}"bindtap='asfasgx'>{{item.name}}</view>
+</view>
+<view class="zanwu">暂无数据</view>

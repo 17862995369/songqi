@@ -1,0 +1,17 @@
+/* pages/luntanxiangqing/luntanxiangqing.wxss */
+.busdhai{width:44rpx;height:44rpx;}
+.sadawi image{width:30%;height:200rpx;margin:1%;}
+page{background:#EDEDF7;}
+.warp{background:#FFF;padding:2%;}
+.yongbushang{width:80rpx;height:80rpx;}
+.busdhai{margin:3%;}
+.renjiaqian{width:17%;}
+.baobaozi{padding-bottom:2%;}
+.asdkawi{background:#FFF;padding:2%;position: fixed;bottom:0;left:0;width:100%; box-sizing:border-box;}
+.fuhuishang{border:1px solid #EDEDF7;padding:2%;width:90%;}
+.huifusk{background:#004186;color:#FFf;width:200rpx;padding:3% 0;text-align: center;}
+.dajyus{margin:2% 0;text-indent:2em;line-height:2;font-size:26rpx;}
+.houfa{margin-left:10rpx;}
+.zsjdwaog{background:#FFF;margin-top:2%;}
+.zhenala{padding:2%;font-weight:bold;font-size:33rpx;}
+.gaudawk{margin-left:19%;font-size: 26rpx;text-indent:2em;line-height:2;}

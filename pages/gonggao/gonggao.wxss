@@ -1,0 +1,14 @@
+/* pages/gonggao/gonggao.wxss background:rgba(0,0,0,0.1);color:#FFF;*/
+.skill{width:290rpx;text-align: center;font-size:24rpx;padding:0.5% 0;border-radius:20rpx;color:#fff;background: #CACAD2;}
+.price{margin-top:5%;}
+page{background:#EDEDF7;padding:5%; box-sizing:border-box;padding-top:0;}
+.notice{background:#FFF;margin-top:2%;border-radius:10rpx;padding:3%;}
+.system{font-size:33rpx;border-bottom:1px solid #EEEEEE;padding-bottom:20rpx;}
+.nervous{margin-top:3%;text-indent:2em;padding-bottom:3%;}
+.birth{color:#3487F4;font-size:26rpx;}
+.send{width:20rpx;}
+.specifications{margin-top:2%;}
+.yaun{width:10rpx;height:10rpx;border-radius:100%;margin-right:3%;}
+.dawdawi{width:40%;margin-top:30%;margin-left:30%;}
+.sadjiafj{position: relative;margin-top:3%;}
+.dbawudshi{width:99%;background: #FFF;padding:2% 0;}

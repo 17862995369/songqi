@@ -1,0 +1,59 @@
+<form bindsubmit="formSubmit">
+  <view class="unfamiliar">
+  <!-- <view style='background:#EDEDF7'> -->
+    <view class="ty_hengpai although">
+      <image src="/img/xian.png" class="before"></image>
+      <view class="choice">请选择</view>
+      <image src="/img/xian.png" class="before"></image>
+    </view>
+    <view class="ty_liangduanduiqi future">
+      <image src="{{fangyuan}}" class="real" mode='widthFix' bindtap="gerenfangyuan"></image>
+      <image src="{{qvyv}}" mode='widthFix' class="real" bindtap="zhhizhi"></image>
+    </view>
+    <!-- </view> -->
+    <view class="door">
+      <view class="ty_hengpai">
+        <view class="out ty_liangduanduiqi">
+          <view>姓</view>
+          <view>名：</view>
+        </view>
+        <input type="text" placeholder='请输入姓名' name="username" />
+      </view>
+      <view class="ty_hengpai">
+        <view class="out">联系电话：</view>
+        <input type="number" placeholder='请输入电话' name="mobile" />
+      </view>
+      <view class="ty_hengpai">
+        <block wx:if="{{sahngren}}">
+          <view class="out">详细地址：</view>
+          <input type="text" placeholder='请输入详细地址' name="address" />
+        </block>
+        <view class="section" wx:if="{{xiangxi}}">
+
+          <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+            <view class="picker">详细地址: {{array[index]}}</view>
+          </picker>
+        </view>
+      </view>
+      <view class="ty_hengpai">
+        <view class="out">报修内容：</view>
+        <input type="text" name="content" placeholder='请输入报修内容' />
+      </view>
+    </view>
+
+  </view>
+  <!-- <view class="downstream">
+  <view class="wife">有图有真相,请上传图片：</view>
+  <view class="ty_liangduanduiqi">
+    <image src="/img/zhaopian.png" class="tung"></image>
+    <image src="/img/zhaopian.png" class="tung"></image>
+    <image src="/img/zhaopian.png" class="tung"></image>
+    <image src="/img/zhaopian.png" class="tung"></image>
+    <image src="/img/zhaopian.png" class="tung"></image>
+  </view>
+</view> -->
+  <view class="downstream deficit">
+    请尽可能详述维修问题，以便我们准确定位位置,尽快处理。如遇紧急问题，可直接拨打物业电话。
+  </view>
+  <button form-type="submit" class="ty_anniu bmission">提交</button>
+</form>

@@ -1,0 +1,5 @@
+/* pages/diaochawenjuan/diaochawenjuan.wxss */
+.container{background: #FFF;padding: 2% 3.6%;}
+.tupian{width: 100%;height: 300rpx;}
+.title{font-size: 30rpx;padding: 10rpx 0;}
+.startTime{font-size: 26rpx;padding: 10rpx 0;}

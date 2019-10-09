@@ -1,0 +1,13 @@
+
+<view class="weixiuren">
+   <view>维修人：{{shuzhong.manger_title}}</view>
+   <view>结束时间：{{shuzhong.create_time}}</view>
+</view>
+<textarea placeholder='请对本次服务评价' bindinput='pingjias' class="wuwusk"></textarea>
+<view class="ty_hengpai zhende">
+  <view>服务评分:</view>
+  <view class="ty_hengpai">
+   <image src="{{item.url}}" data-id="{{item.id}}" wx:for="{{img}}" class="ayoas" bindtap="renshiren"></image>
+  </view>
+</view>
+<view class="tijiao ty_anniu" bindtap='shengqi'>提交</view>

@@ -1,0 +1,8 @@
+<view>
+  <image src="/img/tijianjieguo.png" class="tupian"></image>
+</view>
+ <view class="xinxin">
+  <view style="padding:3% 3%;">
+   <view>检查结果：{{result}}</view>
+   </view>
+</view> 

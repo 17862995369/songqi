@@ -1,0 +1,18 @@
+/* pages/bianmin/bianmin.wxss */
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row{
+  flex-basis: 100%;
+  display:flex;
+}
+
+.item{
+  flex: 1;
+ text-align: center;
+ border:1px solid #ccc;
+ height:100px;
+ line-height: 100px;
+}

@@ -1,0 +1,6 @@
+/* pages/wenti/wenti.wxss */
+.down{width:30rpx;height: auto;}
+page{background:#EDEDF7;}
+.cannot{background: #FFF;padding:5%;margin-bottom:3px;padding-bottom:0;}
+.sleep{border-bottom:1px solid #F1EFF5;padding-bottom:5%;}
+.fierce{margin-top:4%;padding-bottom:5%;}

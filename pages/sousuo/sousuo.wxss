@@ -1,0 +1,9 @@
+/* pages/sousuo/sousuo.wxss */
+.talent{width:36rpx;height:36rpx;}
+.feel{background:#EDEDF7;padding:6% 0;}
+.pleasure{background:#fff;width:90%;height:80rpx;margin:0 auto;border-radius:20rpx;color:#C8C8C8;}
+.pleasureImage{margin-left: 10rpx;}
+.significance{padding:0 4%;}
+.significance>view>view{line-height:2;}
+.significance>view{border-bottom:1px solid #EDEDED;padding:3% 0;}
+.changqing{color:#9C9C9C;}

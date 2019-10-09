@@ -1,0 +1,7 @@
+/* pages/changzu/changzu.wxss */
+page{background:#E5E5F0;}
+.zuoshenm{width:100%;background: #Fff;height: 70rpx;}
+.ssadiziy{width:100rpx;}
+.baidat{width:30%;padding:3%;background: #FFf;}
+.fanket{margin-top:3%;}
+.fehenzhengc{font-size:50rpx;}

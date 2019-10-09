@@ -1,0 +1,14 @@
+<view class="xvqiu" wx:for="{{huodong}}" bindtap='tianzhuabn' data-url="/pages/baomingxiangqing/baomingxiangqing?id={{item.id}}">
+   <image src="{{item.thumb}}" class="hedianshu" mode='widthFix'></image>
+   <view class="tiaoxun">{{item.title}}</view>
+   <view class="ty_liangduanduiqi">
+   <view class="ty_hengpai">
+     <image src="/img/shijian.png"  class="jifenyongjin"></image>
+     <view class="xiaosnai">{{item.create_time}}</view>
+   </view>
+    <view  class="ty_hengpai">
+     <view  class="xiaosnai qiuhe">已报名{{item.num}}人</view>
+     <view class="baomignzhong">报名中</view>
+   </view>
+</view>
+</view>

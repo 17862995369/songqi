@@ -1,0 +1,8 @@
+/* pages/weixiufuwu/weixiufuwu.wxss */
+page{background:#F0F0F0;}
+.weixiuren{background:#FFF;padding:5%;}
+.weixiuren>view{line-height: 2;}
+.wuwusk{background:#FFF;border:1px solid #e8e8e8;border-radius:20rpx;margin:50rpx auto;padding:2%; box-sizing:border-box;font-size:30rpx;}
+.tijiao{background:#0C61EE;color:#FFF;width:90%;margin:0 auto;border-radius:20rpx;padding:2%;margin-top:5%;}
+.ayoas{width:50rpx;height:40rpx;margin:0 3%;}
+.zhende{padding-left:3%;}

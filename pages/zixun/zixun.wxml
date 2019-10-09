@@ -1,0 +1,51 @@
+
+  <swiper indicator-dots="{{indicatorDots}}" wx:if="{{jiusahdi}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+    <swiper-item wx:for="{{lunbo}}" >
+      <image src="{{item.pic}}" class="slide-image"   style="height:100%;width:100%;"/>
+    </swiper-item>
+</swiper>
+<view style="{{kong}}" style='width:100%;'>
+    <scroll-view scroll-x="true" class="tab-h" style="{{asdiwa}}" scroll-left="{{scrollLeft}}">
+        <view wx:for="{{daohang}}" class="tab-item {{currentTab==item.paixv?'active':''}}"  data-id="{{item.id}}" data-current="{{item.paixv}}" bindtap="swichNav">{{item.title}}</view>
+        
+    </scroll-view>
+    <swiper class="tab-content" duration="300" bindchange="switchTab"
+     style="height:{{winHeight}};{{xiuab}}" >
+        <swiper-item wx:for="{{shuzui}}">
+            <scroll-view scroll-y="true" class="scoll-h"   bindscrolltolower="lower" lower-threshold="50rpx">
+           
+                <block wx:for="{{buasasli}}" wx:key="*this">
+                  <block  wx:if="{{item.er}}">
+                     <view class="ty_liangduanduiqi dingttian" bindtap="tiaoxiangqing"  data-url="/pages/xiangqing/xiangqing?id={{item.id}}">
+                       <view class="ty_dingdiduiqi houqi" style="height:180rpx;">
+                         <view class="guojia ">{{item.title}}</view>
+                         <view class="wuye">{{item.create_time}}</view>
+                       </view>
+                       <image src="{{item}}" wx:for="{{item.pic}}" class="yver"></image>
+                     </view>
+                  </block>
+                  <block  wx:if="{{item.san}}">
+                    <view class="lijie"  bindtap="tiaoxiangqing" data-url="/pages/xiangqing/xiangqing?id={{item.id}}">
+                      <view class="guojia">{{item.title}}</view>
+                      <view class="ty_bumam">
+                        <image src="/img/you.png" class="zazhun" src="{{item}}" wx:for="{{item.pic}}"></image>
+                      
+                      </view>
+                       <view class="wuye">{{item.create_time}}</view>
+                    </view>
+                  </block>
+                  <block wx:if="{{item.yi}}">
+                  <view class="lijie"  bindtap="tiaoxiangqing" data-url="/pages/xiangqing/xiangqing?id={{item.id}}">
+<view class="guojia">{{item.title}}</view>
+ <view class="wuye">{{item.create_time}}</view>
+                  </view>
+                  </block>
+                </block>
+            
+            </scroll-view>
+        </swiper-item>
+         
+    </swiper>
+</view>
+<image src="/img/zanwu.png" mode='widthFix' class="shaem" wx:if="{{xiangshi}}"></image>

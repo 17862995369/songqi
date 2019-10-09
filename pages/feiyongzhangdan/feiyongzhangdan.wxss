@@ -1,0 +1,11 @@
+page{background:#EDEDF7;}
+.quanbu{background:#fff;}
+.quanbu>view{width:25%;text-align: center;padding:3.5% 0;}
+.shuozhe{background:#9FC3FF;color:#FFF;}
+.jiaofei{margin-left:5%;}
+.nianqing{background:#FFF;margin-top:2%;padding:3%;}
+.jiali{border-bottom:1px solid #EDEDF7;padding-bottom:3%;}
+.jieshou{margin-top:3%;}
+.buziran>view{line-height:1.8;}
+.xiangqing{color:#357BEC;font-size: 30rpx;}
+.dateTime{font-size: 22rpx;color: gray;padding-top: 10rpx;}

@@ -1,0 +1,44 @@
+<view class="ty_hengpai" style="padding:5%;padding-left:8%;">
+  <view class="section ty_hengpai">
+  <view class="section__title">起始时间：</view>
+  <picker mode="date" class="zdaiw" value="{{date}}" start="2001-09-01" end="2032-09-01" bindchange="bindDateChange">
+    <view class="picker">
+     <input type="number" disabled='disabled' placeholder='请输入起始时间'placeholder-style='padding-left:3%;' class="shenfenzhna dahaoji" bindinput="shenfenzhenghao" value='{{date}}' /> 
+    </view>
+  </picker>
+</view>
+</view>
+<view class="ty_hengpai" style="padding:5%;padding-left:8%;">
+  <view class="section ty_hengpai">
+  <view class="section__title">终止时间：</view>
+  <picker mode="date" class="zdaiw" value="{{date}}" start="2001-09-01" end="2032-09-01" bindchange="bindDateChanges">
+    <view class="picker">
+     <input type="number" disabled='disabled' placeholder='请输入终止时间'placeholder-style='padding-left:3%;' class="shenfenzhna dahaoji" bindinput="shenfenzhenghao" value='{{dates}}' /> 
+    </view>
+  </picker>
+</view>
+</view>
+<view class="ty_hengpai" style="padding:5%;padding-left:8%;">
+  <view>身份证号：</view>
+  <input type="number" placeholder='请输入身份证号' placeholder-style='padding-left:3%;' class="shenfenzhna" bindinput="shenfenzhenghao"/>
+</view>
+
+ <view class="chaxun ty_anniu" bindtap='chaxuans'>查询</view>
+ <view class="saduawhei" wx:if="{{saduawyi}}" bindtap="ztizhogn"></view>
+ <view class="xiasi" wx:if="{{saduawyi}}">
+   <view class="ty_anniu shduaoguo">查询信息</view>
+   <view class="ty_hengpai kongtiao">
+     <view>身高：</view>
+     <view>{{xiansdiwa.R_height}}CM</view>
+   </view>
+    <view class="ty_hengpai kongtiao">
+     <view>体重：</view>
+     <view>{{xiansdiwa.R_weight}}</view>
+   </view>
+     <view class="ty_hengpai kongtiao">
+     <view></view>
+     <view>{{xiansdiwa.Summary}}</view>
+   </view>
+   
+   <view class="ty_anniu rudyans" bindtap="ztizhogn">确定</view>
+ </view>

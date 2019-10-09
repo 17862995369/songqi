@@ -1,0 +1,7 @@
+<view class="cannot" wx:for="{{liubiao}}">
+  <view class="ty_liangduanduiqi sleep" data-index="{{index}}" bindtap="zhanxian">
+    <view>{{item.title}}</view>
+    <image src="{{item.xia}}" class="down" mode='widthFix'></image>
+  </view>
+  <view class="fierce" wx:if="{{item.yincang}}" >{{item.content}}</view>
+</view>

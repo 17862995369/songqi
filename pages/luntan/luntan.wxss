@@ -1,0 +1,8 @@
+/* pages/luntan/luntan.wxss */
+page{background:#EDEDF9;padding:3%;box-sizing:border-box;}
+.xiangfa{background:#fff;width:96%;padding:2%;border:1px solid #E0E0E9;border-radius:10rpx;}
+.yanalaosi{width:120rpx;height:120rpx;}
+.bunengge{margin-top:3%;}
+.gahuanxin{background:#0C68FF;color:#FFF;padding:3%;border-radius:20rpx;margin-top:5%;}
+.buxianzhe{position:absolute;top:-10%;right:-20%;}
+.xvyadia{margin:3%;}

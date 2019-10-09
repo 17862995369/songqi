@@ -1,0 +1,20 @@
+
+<view class="quanbu ty_liangduanduiqi">
+  <view class="shuozhe">全部</view>
+  <view>水费</view>
+  <view>电费</view>
+  <view>燃气费</view>
+</view>
+<view class="nianqing">
+  <view class="ty_hengpai jiali">
+    <view>缴费项目：水费</view>
+    <view class="jiaofei">缴费房产：xx小区 1-1256</view>
+  </view>
+   <view class="ty_liangduanduiqi jieshou">
+      <view class="buziran">
+        <view>缴费金额：50.245元</view>
+        <view class='dateTime'>2018-12-21</view>
+      </view>
+      <view class="xiangqing">详情</view>
+   </view>
+</view>

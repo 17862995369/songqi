@@ -1,0 +1,240 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+  <block wx:for="{{lunbo}}">
+    <swiper-item>
+      <image src="{{item.pic}}" class="slide-image" mode='widthFix' style="height:100%;width:100%;" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="ty_bumam  horses">
+  <view class="more ty_shangxiaduiqi" data-odaw="{{item.ad_type}}" wx:for="{{daohang}}" data-mingzi="{{item.name}}" data-xieak="{{item.content}}" data-url="{{item.url}}" bindtap="dianji" data-appip="{{item.wechat_appid}}">
+    <image src="{{item.pic}}" class="master"></image>
+    <view class="intelligence">{{item.name}}
+    </view>
+  </view>
+</view>
+
+<!-- <view  class="chonle">
+ <image src="{{liebiao[0].pic}}" class="translate"></image>
+  <view class="translate">
+    <view><image src="{{liebiao[1].pic}}"  class="long"></image></view>
+    <view style="margin-top:-5rpx;"><image src="{{liebiao[2].pic}}"  class="long"></image></view>
+  </view>
+</view> -->
+<image src="{{sadaww}}" mode="widthFix" mode="widthFix" style="width:100%;margin:2% 0;margin-bottom:0;"></image>
+
+<view class="ty_bumam dawshiahu">
+  <view class="ty_hengpai sagag" wx:for="{{qvbsaudw}}" bindtap='jkdawirrfwo'  data-xieak="{{item.url}}">
+    <image src="{{item.pic}}" mode="widthFix" class="djiawd"></image>
+    <!-- <view class="sadawi"> -->
+      <view style="margin-left:10rpx;">{{item.name}}</view>
+      <!-- <view class="zhhaidwa">{{item.content}}</view> -->
+    <!-- </view> -->
+  </view>
+</view>
+
+<!-- <view class="ty_liangduanduiqi">
+  <view class="sagag ty_hengpai" bindtap="wentidiaocha">
+    <image src="/img/daochzan.png" mode="widthFix" class="djiawd"></image>
+    <view class="sadawi">
+      <view>问卷调查</view>
+      <view class="zhhaidwa">问卷调查内容</view>
+    </view>
+  </view>
+  <view class="sagag ty_hengpai" bindtap="gotoPageff">
+    <image src="/img/daochzan.png" mode="widthFix" class="djiawd"></image>
+    <view class="sadawi">
+      <view>小区公告</view>
+      <view class="zhhaidwa">问卷调查内容</view>
+    </view>
+  </view> 
+ <view>
+  </view>
+</view> -->
+
+<!-- <view class="ty_liangduanduiqi">
+  <view class="sagag ty_hengpai" bindtap="bianmin">
+    <image src="/img/daochzan.png" mode="widthFix" class="djiawd"></image>
+    <view class="sadawi">
+      <view>智能门禁</view>
+      <view class="zhhaidwa">问卷调查内容</view>
+    </view>
+  </view>
+  <view class="sagag ty_hengpai" bindtap="gotoPage" data-type="page" data-params="/pages/" data-format="1">
+    <image src="/img/daochzan.png" mode="widthFix" class="djiawd"></image>
+    <view class="sadawi">
+      <view>管家报修</view>
+      <view class="zhhaidwa">问卷调查内容</view>
+    </view>
+  </view> 
+ <view>
+  </view>
+</view> -->
+
+
+
+<view class="ty_liangduanduiqi zhigeyijian">
+  <!-- <view class="shqvluntan">爱心公益</view> -->
+  <view class='ty_hengpai'>
+    <view class='blueLine'></view>
+    <view style='font-size: 28rpx;margin-left:12rpx;'>爱心公益</view>
+  </view>
+
+  <view class="ty_hengpai kanqingk" bindtap="xiesha" data-url="/pages/huodongliebiao/huodongliebiao">
+    <view class="gengguo">查看更多</view>
+    <!-- <image src="/img/duogeng.png" class="feixue"></image> -->
+  </view>
+</view>
+<view class="sahgnjin ty_liangduanduiqi">
+  <view class="caiwu" wx:for="{{sheqv}}">
+    <image src="{{item.thumb}}" class="tuandui" mode="widthFix"></image>
+    <view class=" liuzong">
+      <view class="sxan">{{item.title}}</view>
+      <view class='ty_liangduanduiqi' style='margin-top:20rpx;'>
+        <view class="baoming">共{{item.bm_max}}人</view>
+        <view class="xiangqingcha" bindtap="dawfawf" data-url="/pages/baomingxiangqing/baomingxiangqing?id={{item.id}}">
+          查看详情
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view wx:if="{{luntancsd}}">
+  <view class="ty_liangduanduiqi zhigeyijian" style='border-bottom:1px solid #EDEDF8;'>
+    <!-- <view class="shqvluntan">社区论坛</view> -->
+    <view class='ty_hengpai'>
+      <view class='blueLine'></view>
+      <view style='font-size: 28rpx;margin-left:12rpx;'>{{luntaname}}</view>
+    </view>
+    <view class="ty_hengpai kanqingk" bindtap="dawfawf" data-url="/pages/luntanliebiao/luntanliebiao">
+      <view class="gengguo">查看更多</view>
+      <image src="/img/duogeng.png" class="feixue"></image>
+    </view>
+  </view>
+  <view class="jishiwanc" wx:for="{{luntan}}">
+    <view class="ty_liangduanduiqi qingqingx" data-id="{{item.id}}" bindtap="luntantiao" data-url="/pages/luntanxiangqing/luntanxiangqing?id={{item.id}}">
+      <view class="ty_hengpai" style="width:30%;">
+        <image src="{{item.avatar}}" class="ty_touxiang" style="width:80rpx;height:80rpx;"></image>
+        <view class="ty_dingdiduiqi" style="margin-left:10rpx;font-size:26rpx;">{{item.username}}</view>
+      </view>
+
+
+      <!-- <view class='ty_hengpai' >
+      <view class='createTime'>{{item.create_time}}</view>
+      <view class="ty_hengpai kanqingk" style="width:10%;">
+        <image src="{{item.zan==0?'/img/dianzan.png':'/img/hongses.png'}}" mode="widthFix"  data-dianzan="{{item.zan}}" data-luntanid="{{item.id}}" bindtap='dianzan' style='width:16px;height:17.5px;'></image>
+        <view style="color:#B4B4B4;">{{item.zannum}}</view>
+      </view>
+    </view> -->
+      <!-- <view class='ty_hengpai'> -->
+      <view class='createTime'>{{item.create_time}}</view>
+      <!-- <view class='ty_hengpai'>
+        <image src="{{item.zan==0?'/img/dianzan.png':'/img/hongses.png'}}" mode="widthFix" data-dianzan="{{item.zan}}" data-luntanid="{{item.id}}" bindtap='dianzan' style='width:30rpx;height:20rpx;margin-left:20rpx;'></image>
+        <view style="color:#B4B4B4;">{{item.zannum}}</view>
+      </view> -->
+      <!-- </view> -->
+    </view>
+    <!-- bindtap="yvlan" -->
+    <view class="sahouahang" data-id="{{item.id}}" bindtap="luntantiao" data-url="/pages/luntanxiangqing/luntanxiangqing?id={{item.id}}">{{item.content}}</view>
+    <view class="ty_bumam">
+      <view class="ty_bumam suxue" data-id="{{item.id}}" bindtap="luntantiao" data-url="/pages/luntanxiangqing/luntanxiangqing?id={{item.id}}">
+        <!-- <image src="{{itemName}}" data-index="{{index}}" mode="widthFix" data-url="{{itemName}}" data-indexs="{{item.img}}" wx:for-item="itemName" wx:for="{{item.img}}"></image> -->
+        <view wx:if="{{item.yincangyi}}" style="width:98%;">
+          <view wx:for-item="itemName" wx:for="{{item.img}}" class="awdawmgui">
+            <image src="{{itemName}}" data-index="{{index}}" mode="widthFix" data-url="{{itemName}}" data-indexs="{{item.img}}" style="width:100%;"></image>
+          </view>
+        </view>
+        <view class="awdawmg ty_liangduanduiqi" wx:if="{{item.yincanger}}">
+          <image wx:for-item="itemName" wx:for="{{item.img}}" src="{{itemName}}" data-index="{{index}}" mode="widthFix" data-url="{{itemName}}" data-indexs="{{item.img}}"></image>
+        </view>
+        <view class="awda ty_bumam" wx:if="{{item.yincangsan}}">
+          <image wx:for-item="itemName" wx:for="{{item.img}}" src="{{itemName}}" data-index="{{index}}" mode="widthFix" data-url="{{itemName}}" data-indexs="{{item.img}}"></image>
+
+        </view>
+      </view>
+    </view>
+    <view class="ty_juyou" style='margin-top:20rpx;color:#B4B4B4;'>
+      <!-- <view class='ty_hengpai rebnwu'>
+  <view class="ty_anniu" style="border-right:1px solid #B4B4B4;">浏览1.1k</view>
+  <view class="ty_anniu">评论11</view>
+  </view> -->
+      <view class="ty_hengpai kanqingk" style="width:10%;">
+        <!-- <image src="/img/pinglun.png" mode="widthFix" style='width:50rpx;'></image> -->
+        <!-- <view class="qvdai"></view> -->
+        <image src="{{item.zan==0?'/img/dianzan.png':'/img/hongses.png'}}" mode="widthFix" style='width:50rpx;' data-dianzan="{{item.zan}}" data-luntanid="{{item.id}}" bindtap='dianzan' style='width:16px;height:17.5px;'></image>
+        <view style="color:#B4B4B4;">{{item.zannum}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="ty_liangduanduiqi zhigeyijian" style='border-bottom:1px solid #EDEDF8;'>
+  <!-- <view class="shqvluntan">社区论坛</view> -->
+  <view class='ty_hengpai'>
+    <view class='blueLine'></view>
+    <view style='font-size: 28rpx;margin-left:12rpx;'>环境监测</view>
+  </view>
+  <view class="ty_hengpai kanqingk" bindtap="dawfawf" data-url="/pages/luntanliebiao/luntanliebiao">
+    <!-- <view class="gengguo">查看更多</view>
+    <image src="/img/duogeng.png" class="feixue"></image> -->
+  </view>
+</view>
+
+<view class="qiehunad" bindtap="quiehausj" data-jis="{{jiqvs}}">切换到{{jiqvs}}</view>
+<view class="ty_hengpai xiansei">
+  <view class="ty_anniu qingsakw">
+    <view style="width:100%;">
+      <view class="ty_anniu">温度</view>
+      <view class="ty_anniu fengnxing" style="width:100%;color:#969696;">{{jianzce.shuju_wendu}}</view>
+    </view>
+  </view>
+  <view class="shiadwui">
+    <view class="ty_hengpai">
+      <view class="fengnxing ty_anniu">
+        <view>
+          <view class="ty_anniu">湿度</view>
+          <view class="jiawowjs ty_anniu">{{jianzce.shuju_shidu}}</view>
+        </view>
+      </view>
+      <view class="fengnxing ty_anniu">
+        <view>
+          <view class="ty_anniu">风向</view>
+          <view class="jiawowjs ty_anniu">{{jianzce.shuju_fengxiang}}</view>
+        </view>
+      </view>
+    </view>
+    <view class="ty_hengpai zhwaj">
+      <view class="fengnxing ty_anniu">
+        <view>
+          <view class="ty_anniu">风速</view>
+          <view class="jiawowjs ty_anniu">{{jianzce.shuju_fengsu}}</view>
+        </view>
+      </view>
+      <view class="fengnxing ty_anniu">
+        <view>
+          <view class="ty_anniu">噪音值</view>
+          <view class="jiawowjs ty_anniu">{{jianzce.shuju_zaoyinzhi}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+
+
+
+
+<image src="/img/fabu.png" mode='widthFix' class="weishenm" bindtap="luntantiao" data-url="/pages/luntan/luntan" wx:if="{{luntancsd}}"></image>
+<!-- <image src="/img/pinglun.png" mode="widthFix" style='width:50rpx;'></image>
+    <view class="qvdai"></view>
+    <image src="/img/dianzan.png"  mode="widthFix" style='width:50rpx;'></image>-->
+<view>
+  <image src="/img/redianzixun.png" mode="widthFix" class="sadhauw"></image>
+</view>
+<view wx:for="{{zixuans}}" class="ty_liangduanduiqis sadafas" data-iss="{{item.id}}" bindtap="sadjwauuf">
+  <view class="ty_dingdiduiqi sadassf">
+    <view class="asdajwbu">{{item.title}}</view>
+    <view class="ahzjiad">{{item.end_time}}</view>
+  </view>
+  <image src="{{item.thumb}}" class="tuaidjsa"></image>
+</view>

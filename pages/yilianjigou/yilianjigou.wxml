@@ -1,0 +1,47 @@
+<form  bindsubmit="formSubmit">
+<view class="ty_hengpai jeihui">
+   <view class="huanzhe">患者姓名：</view>
+   <view class="shenmzhishi"><input type="text"  class="tanxhuan" name="huanzhexingming"/></view>
+</view>
+<view class="ty_hengpai jeihui">
+   <view class="huanzhe">预约手机：</view>
+   <view class="shenmzhishi"><input type="number"  class="tanxhuan"  name="yvyueshouji"/></view>
+</view>
+<view class="ty_hengpai jeihui">
+   <view class="huanzhe">患者性别：</view>
+   <view class="shenmzhishi ty_hengpai">
+     <view class="ty_hengpai" wx:for="{{nanv}}" bindtap='danxuan' data-name="{{item.name}}">
+       <image src="{{item.tupian}}" mode='widthFix' class="mingyings"></image>
+       <view style="margin-left:10%;">{{item.name}}</view>
+     </view>
+   </view>
+</view>
+   <view class="ty_hengpai jeihui">
+   <view class="huanzhe">患者年龄：</view>
+   <view class="shenmzhishi"><input type="number"  class="tanxhuan"  name="huangzhenianling"/></view>
+</view>
+   <!-- <view class="ty_hengpai jeihui">
+   <view class="huanzhe">检查科室：</view>
+   <view class="shenmzhishi"><input type="number"  class="tanxhuan"/></view>
+</view> -->
+   <view class="ty_hengpai jeihui">
+   <view class="huanzhe">预约时间：</view>
+   <view class="shenmzhishi">
+ <view class="section tanxhuan">
+  <!-- <view class="section__title">日期选择器</view> -->
+  <picker mode="date" value="{{date}}" start="{{kaishi}}" end="2050-01-01" bindchange="bindDateChange"style="width:100%;height:100%;padding-top:3.5%;padding-left:5%;"
+  >
+    <view class="picker">{{date}}</view>
+  </picker>
+</view>
+   </view>
+</view>
+   <view class="ty_hengpai jeihui">
+   <view class="huanzhe beizhu ty_liangduanduiqi" style="width:18%;">
+     <view>备</view>
+     <view>注： </view>
+   </view>
+   <view class="shenmzhishi" style="margin-left:3%;"><input type="number"  name="beizhu" class="tanxhuan"/></view>
+</view>
+<button   form-type="submit"  class="gahuanxin ty_anniu">预约</button>
+</form>

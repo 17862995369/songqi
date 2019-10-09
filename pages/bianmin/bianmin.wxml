@@ -1,0 +1,18 @@
+<!--pages/bianmin/bianmin.wxml-->
+<view class="box">
+  <view class="row">
+    <view class="item" bindtap='linkUrl1' data-url="http://www.baidu.com">百度</view>
+    <view class="item" bindtap='linkUrl1' data-url="http://www.baidu.com">百度</view>
+    <view class="item">微博</view>
+  </view>
+  <view class="row">
+     <view class="item">好123</view>
+    <view class="item">百度</view>
+    <view class="item">微博</view>
+  </view>
+  <view class="row">
+     <view class="item">好123</view>
+    <view class="item">百度</view>
+    <view class="item">微博</view>
+  </view>
+</view>

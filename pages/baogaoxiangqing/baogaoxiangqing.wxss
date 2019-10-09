@@ -1,0 +1,9 @@
+.tupian{width:40%;height: 80rpx;margin-left: 30%;margin-top: 30rpx; }
+.fnks{font-size: 24rpx;padding: 5rpx;width: 90%;}
+.xinxin view{padding: 14rpx 3%;border-bottom: 1px solid #ccc;}
+.fhbia{font-size: 24rpx;width: 90%;}
+/* .zuihou{border-bottom: none;} */
+.gvvnis{padding:3% 3%;}
+.huifu{width: 70%;color: #666;font-size: 24rpx}
+.hdaoiwdf{font-size: 24rpx;}
+.dsstyle{text-align: center;border-bottom: 1px solid #ccc;padding: 18px 0;font-size: 30rpx;}

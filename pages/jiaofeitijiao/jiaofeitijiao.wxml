@@ -1,0 +1,47 @@
+<view>已选择：<text class="tengzhou">A区005车位</text></view>
+<view class="ty_liangduanduiqi wunai">
+<view class="section">
+
+  <picker mode="date" value="{{date}}" start="2015-09-01" end="2032-09-01" bindchange="bindDateChange">
+    <view class="picker">
+    <view class='carnum ty_anniu'>{{carnums}}</view>
+
+    </view>
+  </picker>
+</view>
+ 
+
+</view>
+<view class="ty_liangduanduiqi wunai">
+
+<view class="section">
+
+  <picker mode="date" value="{{date}}" start="2015-09-01" end="2032-09-01" bindchange="bindDateChanges">
+    <view class="picker">
+ <view class='carnum ty_anniu'>{{carnumss}}</view>
+    </view>
+  </picker>
+</view>
+</view>
+<view class="ty_liangduanduiqi wunai">
+ <view class='carnum ty_anniu'>{{carnum}}</view>
+
+</view>
+<!-- 车牌 -->
+
+<view class='keyboard' catchtap='stoppropagation'>
+  <!-- 省键盘 -->
+  <view class="provinces" hidden='{{hiddenPro}}'>
+    <view class="pro-li fl" wx:for="{{provinceArr}}" catchtap='proTap' data-province="{{item}}">{{item}}</view>
+  </view>
+  <!-- 号码键盘	 -->
+  <view class="keyNums" hidden='{{hiddenStr}}'>
+    <view class="pro-li fl" wx:for="{{strArr}}" catchtap='strTap' data-str="{{item}}">{{item}}</view>
+    <view class="bot fl">
+      <view class='kb-icon kb-hide fl pro-li' catchtap='backKeyboard'>返回</view>
+      <view class='kb-icon kb-hide fl pro-li' catchtap='backSpace'>删除</view>
+    </view>
+  </view>
+</view>
+
+<view class="awdfvyyue ty_anniu" bindtap="zshengqi">提交申请</view>

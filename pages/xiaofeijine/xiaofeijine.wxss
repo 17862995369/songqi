@@ -1,0 +1,9 @@
+/* pages/xiaofeijine/xiaofeijine.wxss */
+.xiaofei{background:#5595FF;color:#FFF;padding:40% 0;padding-top:10%;}
+.xiaofei>view{line-height: 2;}
+.jixv{padding:5%;}
+.xiangdui{color:#7C7C7C;}
+.juanjin{border:1px solid #ACBFE1;margin:5%;border-radius:20rpx;margin-top:-23%;background:#FFF;}
+.enrde{color:#535353;margin-left:8%;font-size:24rpx;margin-top: -30rpx;}
+.luoshui{width:90%;background:#0D68FF;color:#FFF;margin:0 auto;padding:3% 0;border-radius:40rpx;margin-top:5%;}
+.momey{font-size: 44rpx;}

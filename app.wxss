@@ -1,0 +1,19 @@
+/**app.wxss**/
+view{font-size:28rpx;}
+.ty_hengpai{display: flex;display:-webkit-flex; align-items: center;}/*并排*/
+.ty_liangduanduiqi{display: flex;display:-webkit-flex; align-items: center; justify-content: space-between;}/*两端对齐*/
+.ty_liangduanduiqis{display: flex;display:-webkit-flex;  justify-content: space-between;}/*两端对齐*/
+.ty_shangxiaduiqi{display:-webkit-flex; display: flex;flex-direction: column;justify-content: space-between;align-items: center;}/*垂直居中对齐*/
+.ty_bumam{display: flex;display:-webkit-flex;flex-wrap: wrap;}/*平均铺满（六个点）*/
+.ty_juyou{display: flex;display:-webkit-flex;justify-content: flex-end;}/*居右*/
+.wenbenyishu{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}/*文本溢出隐藏*/
+.ty_dan{display: flex;display:-webkit-flex;}/*单纯*/
+.ty_dingdiduiqi{ display:-webkit-flex;display: flex;flex-direction: column;justify-content: space-between;}/*上下对齐空中*/
+.ty_anniu{ display: flex;display:-webkit-flex;justify-content: center;align-items: center;}/*按钮*/
+.ty_touxiang{width:150rpx;height:150rpx;border-radius:100%;}/*头像*/
+.ty_xianfd{position:relative;}/*相对定位*/
+.ty_dibuduiqi{ display:-webkit-flex;display: flex;justify-content: space-between;  align-items: flex-end;} 
+.ty_liangbian{display: flex;display:-webkit-flex;  justify-content: space-between;}
+.ty_pingxinjuzhong{display: flex;
+  justify-content: center;
+  align-items: center;}

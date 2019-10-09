@@ -1,0 +1,25 @@
+<!--pages/wode/wode.wxml-->
+<!-- 个人中心头部 -->
+<template name="wode">
+<view class="lwaii">
+	<image src="{{img}}" mode='widthFix' style="width:100%;"></image>
+	<view class="ty_shangxiaduiqi awjifan">
+		<image src="{{avatar}}" class="ty_touxiang"></image>
+		<view class="pingfan">{{username}}<text style="font-size:30rpx;">({{level_name}})</text></view>
+	</view>
+</view>
+</template>
+<!-- 个人中心列表 -->
+<template name="liebiao">
+<view class="ty_hengpai daxue" bindtap="tianzhuan" data-url="{{item.url}}">
+	<image src="{{item.img}}" mode="widthFix" class="lwair"></image>
+	<view>{{item.name}}</view>
+</view>
+</template>
+<!-- 个人中心客服 -->
+<template name="kefu">
+<button open-type="contact" class="ty_hengpai daxue share-btn" bindtap="tianzhuan" style="background:#FFF;border-bottom:1px solid #efefef;">
+	<image src="{{img}}" mode="widthFix" class="lwair"></image>
+	<view>{{name}}</view>
+</button>
+</template>

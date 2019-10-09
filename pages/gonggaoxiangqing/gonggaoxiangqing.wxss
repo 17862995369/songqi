@@ -1,0 +1,4 @@
+/* pages/gonggaoxiangqing/gonggaoxiangqing.wxss */
+page{padding:2%; box-sizing:border-box;padding-top:5%;}
+.silver{margin-top:5%;color:#B4B4B4;}
+.wxParse-p image{display: block;width:100%!important;}

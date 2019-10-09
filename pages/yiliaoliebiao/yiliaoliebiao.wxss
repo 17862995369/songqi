@@ -1,0 +1,5 @@
+/* pages/yiliaoliebiao/yiliaoliebiao.wxss */
+page{background:#EDEDFA;padding:3%;box-sizing:border-box;}
+.efak{background:#FFF;padding:3%;border-radius:20rpx;margin-bottom:5%;}
+.efak>view{line-height:2;}
+.dawdawi{width:40%;margin-top:30%;margin-left:30%;}

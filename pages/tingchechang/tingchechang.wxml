@@ -1,0 +1,26 @@
+<view class="yangguang">阳光100停车场</view>
+<view class="ty_liangduanduiqi wunai">
+ <view class='carnum ty_anniu'>{{carnum}}</view>
+  <view class="feijiao" bindtap='chasxuas'>查询</view>
+</view>
+<!-- 车牌 -->
+
+<view class='keyboard' catchtap='stoppropagation'>
+  <!-- 省键盘 -->
+  <view class="provinces" hidden='{{hiddenPro}}'>
+    <view class="pro-li fl" wx:for="{{provinceArr}}" catchtap='proTap' data-province="{{item}}">{{item}}</view>
+  </view>
+  <!-- 号码键盘	 -->
+  <view class="keyNums" hidden='{{hiddenStr}}'>
+    <view class="pro-li fl" wx:for="{{strArr}}" catchtap='strTap' data-str="{{item}}">{{item}}</view>
+    <view class="bot fl">
+      <view class='kb-icon kb-hide fl pro-li' catchtap='backKeyboard'>返回</view>
+      <view class='kb-icon kb-hide fl pro-li' catchtap='backSpace'>删除</view>
+    </view>
+  </view>
+</view>
+<view class="xiyge">
+  <view>温馨提示：</view>
+  <view>仅可查询在停车场内车辆</view>
+</view>
+<view class="awdfvyyue ty_anniu" bindtap="zshengqi">预约长租车位</view>

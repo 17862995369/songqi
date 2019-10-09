@@ -1,0 +1,15 @@
+.yaoqing>view{width:50%;text-align:center;height:80rpx;line-height:80rpx;margin-top:2%;border-bottom:2px solid #efefef;}
+.yaoqings{border-left:1px solid #efefef;}
+.yaoqing>.active{color:#32CAB7;border-bottom:2px solid #32CAB7;}
+page{height:100%;overflow:hidden;}
+.gubuzifeng{position:absolute;top:22%;left:26%;background:#FFF;width:48%;padding:3% 0;border-radius:15rpx;}
+.dain{width:300rpx;}
+.yaoqingma{position:absolute;top:55%;left:26%;background:#FFF;width:48%;padding:3% 0;border-radius:40rpx;text-align:center;color:#63A8FF;}
+.xiangqing{position:absolute;bottom:30%;left:0;width:100%;}
+.guize{color:#FFF;width:100%;text-align:center;}
+.zhexiao{padding:6% 0;margin:0 4%;border-bottom:1px solid #efefef;}
+.zhanghao>view{width:33%;text-align:center;margin:5% 0;}
+.xiadan{border-left:1px solid #efefef;border-right:1px solid #efefef;}
+.zhanghao{border-bottom:3px solid #efefef;}
+.yixiang>view{width:33%;text-align:center;}
+.yixiang{border-top:1px solid #efefef;padding:4% 0;}

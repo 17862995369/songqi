@@ -1,0 +1,4 @@
+.guanlidizhi{width:33%;height:270rpx;}
+.tianc{margin-top:5%;}
+.buadwka{border-top:1px solid #efefef;margin-top:5%;}
+.buadwka>view{border-left:1px solid #efefef;}

@@ -1,0 +1,11 @@
+<form  bindsubmit="formSubmit">
+<view class="huiqv">您有什么问题或建议想对我们说？</view>
+<view class="ty_hengpai jiyi">
+  <view class="zhijie">您的问题：</view>
+  <view><input type="text" value="" class="sahuang" name="title"/></view>
+</view>
+<textarea placeholder='您的宝贵意见，就是我们进步的源泉。' placeholder-style='font-size:28rpx;' name="content" class="xiangdui"></textarea>
+<view class="baogui">请详细描述您遇到的问题，有助于我们快速定位并且解决问题，或留下您宝贵的建议或意见，我们会认真进行评估！
+</view>
+<button form-type="submit"  class="ty_anniu shitou">问题提交</button>
+</form>

@@ -1,0 +1,16 @@
+<view class="feel">
+  <view class="ty_anniu pleasure">
+   <image src="/img/sousuo.png" class="talent"></image>
+   <view class='pleasureImage'>搜索小区名称</view>
+  </view>
+</view>
+<view class="significance">
+<view>
+  <view>中建长清湖</view>
+   <view class="changqing">[长青 长青]芙蓉路,近海棠路</view>
+</view>
+<view>
+  <view>中建长清湖</view>
+   <view class="changqing">[长青 长青]芙蓉路,近海棠路</view>
+</view>
+</view>

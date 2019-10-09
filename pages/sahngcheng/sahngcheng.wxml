@@ -1,0 +1,23 @@
+<import src="../../jiegouzujian/gerenzhongxin/gerenzhongxin.wxml"/>
+<import src="../../jiegouzujian/kuai/kuai.wxml"/>
+<include src="../../jiegouzujian/lunbo/lunbo.wxml"/> 
+<view class="sahngxi">
+  <view class="ty_bumam">
+    <view class="ty_shangxiaduiqi changji" wx:for="{{cate}}" bindtap="dainjis" data-url="/pages/liebiao/liebiao?id={{item.id}}">
+        <image src="{{item.logo}}" class="dpisjo"></image>
+        <view class="wenbenyishu">{{item.title}}</view>
+    </view>
+  </view>
+    </view>
+    <view class="benshien">
+      <view class="ty_liangduanduiqi awdiawo">
+        <view style="font-size:38rpx;">精品推荐</view>
+        <view style="color:#8e8e8e;" bindtap="gengduo" data-url="/pages/liebiao/liebiao">更多<image src="/img/qianfang.png" class="meiyon"></image></view>
+      </view>
+      <view class="ty_bumam junwe">
+        <block wx:for="{{goods}}">
+       <template is="jingping" data="{{item}}"/> 
+       </block>
+      </view>
+      
+    </view>

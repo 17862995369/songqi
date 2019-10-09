@@ -1,0 +1,18 @@
+/* pages/xuanze/xuanze.wxss */
+page{background:#EDEDF7;}
+.shadow{width:100%;background:#FFF;padding:5% 3%; box-sizing:border-box;}
+.imperceptibly{color:#5881E0;}
+.water{margin:5%;border-radius:20rpx;background:#FFF;}
+.water>view{width:90%;padding:5%;border-bottom:1px solid #EDEDF7;}
+.name{width:193rpx;}
+.certificates{color:#B4B4B4;width:100%;}
+.forward{width:50rpx;height:50rpx;}
+.actually{width:70%;}
+.auxiliary{margin-bottom:5%;}
+.examine{color:#BABABA;font-size:30rpx;line-height:1.8;}
+.photo{width:100rpx;height:100rpx;}
+.go{margin-top:3%;}
+.elopement{width:90%;}
+.thing{margin-bottom:76rpx;}
+.submission{background:#0D68FF;color:#FFF;width:90%;margin-left:5%;border-radius: 20rpx;margin-bottom: 3%;font-size:28rpx;}
+.yanzhegnamsk{background:#FFF;color:#000;font-size:26rpx;width:187rpx;padding:0;}
